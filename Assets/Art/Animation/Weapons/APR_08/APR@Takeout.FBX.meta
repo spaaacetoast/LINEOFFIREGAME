@@ -1,0 +1,225 @@
+fileFormatVersion: 2
+guid: 2ffc26a81ab07134fa05d6b6ae18ff3f
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: APR_Base
+    100004: bullet
+    100006: lp_bolt
+    100008: lp_bolt end
+    100010: magazine
+    100012: Soldier_ L Calf
+    100014: Soldier_ L Clavicle
+    100016: Soldier_ L Finger0
+    100018: Soldier_ L Finger2
+    100020: Soldier_ L Finger3
+    100022: Soldier_ L Foot
+    100024: Soldier_ L Forearm1
+    100026: Soldier_ L Forearm2
+    100028: Soldier_ L Hand
+    100030: Soldier_ L Thigh
+    100032: Soldier_ L Toe0
+    100034: Soldier_ L UpperArm
+    100036: Soldier_ LDigit20
+    100038: Soldier_ LDigit22
+    100040: Soldier_ LDigit23
+    100042: Soldier_ LDigit30
+    100044: Soldier_ LDigit32
+    100046: Soldier_ LDigit33
+    100048: Soldier_ LDigit40
+    100050: Soldier_ LDigit42
+    100052: Soldier_ LDigit43
+    100054: Soldier_ LDigit50
+    100056: Soldier_ LDigit52
+    100058: Soldier_ LDigit53
+    100060: Soldier_ Neck
+    100062: Soldier_ Pelvis
+    100064: Soldier_ PelvisBone01
+    100066: Soldier_ R Calf
+    100068: Soldier_ R Clavicle
+    100070: Soldier_ R Finger0
+    100072: Soldier_ R Finger2
+    100074: Soldier_ R Finger3
+    100076: Soldier_ R Foot
+    100078: Soldier_ R Forearm1
+    100080: Soldier_ R Forearm2
+    100082: Soldier_ R Hand
+    100084: Soldier_ R Thigh
+    100086: Soldier_ R Toe0
+    100088: Soldier_ R UpperArm
+    100090: Soldier_ RDigit20
+    100092: Soldier_ RDigit22
+    100094: Soldier_ RDigit23
+    100096: Soldier_ RDigit30
+    100098: Soldier_ RDigit32
+    100100: Soldier_ RDigit33
+    100102: Soldier_ RDigit40
+    100104: Soldier_ RDigit42
+    100106: Soldier_ RDigit43
+    100108: Soldier_ RDigit50
+    100110: Soldier_ RDigit52
+    100112: Soldier_ RDigit53
+    100114: Soldier_ Spine1
+    100116: Soldier_ Spine2
+    100118: Soldier_Head
+    100120: Soldier_Ribcage
+    100122: Base_Arms_Left001
+    100124: Base_Arms_Right001
+    100126: Hands_TPV_Left001
+    100128: Hands_TPV_Right001
+    400000: //RootNode
+    400002: APR_Base
+    400004: bullet
+    400006: lp_bolt
+    400008: lp_bolt end
+    400010: magazine
+    400012: Soldier_ L Calf
+    400014: Soldier_ L Clavicle
+    400016: Soldier_ L Finger0
+    400018: Soldier_ L Finger2
+    400020: Soldier_ L Finger3
+    400022: Soldier_ L Foot
+    400024: Soldier_ L Forearm1
+    400026: Soldier_ L Forearm2
+    400028: Soldier_ L Hand
+    400030: Soldier_ L Thigh
+    400032: Soldier_ L Toe0
+    400034: Soldier_ L UpperArm
+    400036: Soldier_ LDigit20
+    400038: Soldier_ LDigit22
+    400040: Soldier_ LDigit23
+    400042: Soldier_ LDigit30
+    400044: Soldier_ LDigit32
+    400046: Soldier_ LDigit33
+    400048: Soldier_ LDigit40
+    400050: Soldier_ LDigit42
+    400052: Soldier_ LDigit43
+    400054: Soldier_ LDigit50
+    400056: Soldier_ LDigit52
+    400058: Soldier_ LDigit53
+    400060: Soldier_ Neck
+    400062: Soldier_ Pelvis
+    400064: Soldier_ PelvisBone01
+    400066: Soldier_ R Calf
+    400068: Soldier_ R Clavicle
+    400070: Soldier_ R Finger0
+    400072: Soldier_ R Finger2
+    400074: Soldier_ R Finger3
+    400076: Soldier_ R Foot
+    400078: Soldier_ R Forearm1
+    400080: Soldier_ R Forearm2
+    400082: Soldier_ R Hand
+    400084: Soldier_ R Thigh
+    400086: Soldier_ R Toe0
+    400088: Soldier_ R UpperArm
+    400090: Soldier_ RDigit20
+    400092: Soldier_ RDigit22
+    400094: Soldier_ RDigit23
+    400096: Soldier_ RDigit30
+    400098: Soldier_ RDigit32
+    400100: Soldier_ RDigit33
+    400102: Soldier_ RDigit40
+    400104: Soldier_ RDigit42
+    400106: Soldier_ RDigit43
+    400108: Soldier_ RDigit50
+    400110: Soldier_ RDigit52
+    400112: Soldier_ RDigit53
+    400114: Soldier_ Spine1
+    400116: Soldier_ Spine2
+    400118: Soldier_Head
+    400120: Soldier_Ribcage
+    400122: Base_Arms_Left001
+    400124: Base_Arms_Right001
+    400126: Hands_TPV_Left001
+    400128: Hands_TPV_Right001
+    2300000: APR_Base
+    2300002: bullet
+    2300004: lp_bolt
+    2300006: lp_bolt end
+    2300008: magazine
+    3300000: APR_Base
+    3300002: bullet
+    3300004: lp_bolt
+    3300006: lp_bolt end
+    3300008: magazine
+    4300000: APR_Base
+    4300002: lp_bolt end
+    4300004: lp_bolt
+    4300006: magazine
+    4300008: bullet
+    4300010: Base_Arms_Right001
+    4300012: Hands_TPV_Right001
+    4300014: Base_Arms_Left001
+    4300016: Hands_TPV_Left001
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Base_Arms_Left001
+    13700002: Base_Arms_Right001
+    13700004: Hands_TPV_Left001
+    13700006: Hands_TPV_Right001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 4
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.001
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
