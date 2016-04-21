@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: a7c87de33f4f02b41bc09b531237b9a9
+labels:
+- propeller
+- engine
+- v1.1
+- mono
+- loop
+- USFX
+- vehicle
+- airplane
+- aircraft
+AudioImporter:
+  serializedVersion: 6
+  defaultSettings:
+    loadType: 1
+    sampleRateSetting: 0
+    sampleRateOverride: 0
+    compressionFormat: 0
+    quality: 0
+    conversionMode: 0
+  platformSettingOverrides: {}
+  forceToMono: 0
+  preloadAudioData: 1
+  loadInBackground: 0
+  3D: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

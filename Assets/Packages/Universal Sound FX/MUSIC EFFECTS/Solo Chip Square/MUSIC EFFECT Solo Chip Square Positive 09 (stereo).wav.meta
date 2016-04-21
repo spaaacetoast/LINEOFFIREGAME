@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: c2fc8a1bfb32c4940862ee89f894fa5b
+labels:
+- musiceffect
+- positive
+- USFX
+- 8bit
+- retro
+- sid
+- chip
+- stereo
+AudioImporter:
+  serializedVersion: 6
+  defaultSettings:
+    loadType: 1
+    sampleRateSetting: 0
+    sampleRateOverride: 0
+    compressionFormat: 0
+    quality: 0
+    conversionMode: 0
+  platformSettingOverrides: {}
+  forceToMono: 0
+  preloadAudioData: 1
+  loadInBackground: 0
+  3D: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

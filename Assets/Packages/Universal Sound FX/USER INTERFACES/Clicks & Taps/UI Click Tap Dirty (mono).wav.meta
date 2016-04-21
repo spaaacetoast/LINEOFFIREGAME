@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: 29f6b5c9ca1d06d43918bc5f7c796b39
+labels:
+- USFX
+- menu
+- click
+- mono
+- tap
+- ui
+- interface
+AudioImporter:
+  serializedVersion: 6
+  defaultSettings:
+    loadType: 1
+    sampleRateSetting: 0
+    sampleRateOverride: 0
+    compressionFormat: 0
+    quality: 0
+    conversionMode: 0
+  platformSettingOverrides: {}
+  forceToMono: 0
+  preloadAudioData: 1
+  loadInBackground: 0
+  3D: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: d35aed732989c9d488e5ccf336041d5f
+labels:
+- USFX
+- swing
+- kick
+- punch
+- air
+- whoosh
+- stereo
+- jump
+- fighting
+AudioImporter:
+  serializedVersion: 6
+  defaultSettings:
+    loadType: 1
+    sampleRateSetting: 0
+    sampleRateOverride: 0
+    compressionFormat: 0
+    quality: 0
+    conversionMode: 0
+  platformSettingOverrides: {}
+  forceToMono: 0
+  preloadAudioData: 1
+  loadInBackground: 0
+  3D: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

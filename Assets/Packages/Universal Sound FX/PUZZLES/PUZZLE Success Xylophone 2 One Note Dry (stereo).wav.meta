@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: d08de9aee2b0a904f9b1a2042e2445fd
+labels:
+- USFX
+- success
+- puzzle
+- accomplishment
+- stereo
+AudioImporter:
+  serializedVersion: 6
+  defaultSettings:
+    loadType: 1
+    sampleRateSetting: 0
+    sampleRateOverride: 0
+    compressionFormat: 0
+    quality: 0
+    conversionMode: 0
+  platformSettingOverrides: {}
+  forceToMono: 0
+  preloadAudioData: 1
+  loadInBackground: 0
+  3D: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

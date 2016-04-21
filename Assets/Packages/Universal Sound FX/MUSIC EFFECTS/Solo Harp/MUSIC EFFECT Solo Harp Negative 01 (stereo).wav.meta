@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 5c9a9d49f56038e47b60d6ff2d31640d
+labels:
+- USFX
+- stereo
+- musiceffect
+- negative
+- harp
+AudioImporter:
+  serializedVersion: 6
+  defaultSettings:
+    loadType: 1
+    sampleRateSetting: 0
+    sampleRateOverride: 0
+    compressionFormat: 0
+    quality: 0
+    conversionMode: 0
+  platformSettingOverrides: {}
+  forceToMono: 0
+  preloadAudioData: 1
+  loadInBackground: 0
+  3D: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

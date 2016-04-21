@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: bfdfd5181c2ab3d498e1f55b385eb5f3
+labels:
+- USFX
+- stereo
+- robotic
+- transform
+- sci-fi
+AudioImporter:
+  serializedVersion: 6
+  defaultSettings:
+    loadType: 1
+    sampleRateSetting: 0
+    sampleRateOverride: 0
+    compressionFormat: 0
+    quality: 0
+    conversionMode: 0
+  platformSettingOverrides: {}
+  forceToMono: 0
+  preloadAudioData: 1
+  loadInBackground: 0
+  3D: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
