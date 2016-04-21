@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: proto_checkerboard 4
+  m_Shader: {fileID: 4800000, guid: 23190202293124e0faa460143ff1cd1a, type: 3}
+  m_ShaderKeywords:
+  - DIFFCUBE_ON
+  - SPECCUBE_ON
+  - LUX_AO_OFF
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 4fd35d1e6b705b44ea17e2d3646a1cb2, type: 3}
+          m_Scale: {x: .5, y: 2}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 3, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DiffCubeIBL
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _AO
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecCubeIBL
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Detail
+        second:
+          m_Texture: {fileID: 2800000, guid: 1374bcbabc5a79c4191c4c8616b1e307, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailBumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 18e918044f9b44cf98f7d6e96aaf7272, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ParallaxMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _RoughTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: .078125
+      data:
+        first:
+          name: _DetailTilingX
+        second: 3
+      data:
+        first:
+          name: _DetailTilingY
+        second: 3
+      data:
+        first:
+          name: _DetailDiffuseStrength
+        second: 1
+      data:
+        first:
+          name: _DetailNormalStrength
+        second: .0535714328
+      data:
+        first:
+          name: _OverallRoughness
+        second: .642857134
+      data:
+        first:
+          name: _Parallax
+        second: .0199999996
+      data:
+        first:
+          name: _RoughnessFactor
+        second: .553571403
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: .5, g: .5, b: .5, a: 1}
+      data:
+        first:
+          name: _SpecColMult
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1002 &2100001
+EditorExtensionImpl:
+  serializedVersion: 6
