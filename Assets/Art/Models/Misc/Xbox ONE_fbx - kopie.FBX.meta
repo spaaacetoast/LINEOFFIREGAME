@@ -1,0 +1,101 @@
+fileFormatVersion: 2
+guid: 217134f064485144a897494083386a63
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Xbox ONE_aluminium parts
+    100002: Xbox ONE_back part
+    100004: //RootNode
+    100006: Xbox ONE_glossy plastic
+    100008: Xbox ONE_logo glass
+    100010: Xbox ONE_satin chrome
+    100012: Xbox ONE_satin plastic
+    400000: Xbox ONE_aluminium parts
+    400002: Xbox ONE_back part
+    400004: //RootNode
+    400006: Xbox ONE_glossy plastic
+    400008: Xbox ONE_logo glass
+    400010: Xbox ONE_satin chrome
+    400012: Xbox ONE_satin plastic
+    2300000: Xbox ONE_aluminium parts
+    2300002: Xbox ONE_back part
+    2300004: Xbox ONE_glossy plastic
+    2300006: Xbox ONE_logo glass
+    2300008: Xbox ONE_satin chrome
+    2300010: Xbox ONE_satin plastic
+    3300000: Xbox ONE_aluminium parts
+    3300002: Xbox ONE_back part
+    3300004: Xbox ONE_glossy plastic
+    3300006: Xbox ONE_logo glass
+    3300008: Xbox ONE_satin chrome
+    3300010: Xbox ONE_satin plastic
+    4300000: Xbox ONE_glossy plastic
+    4300002: Xbox ONE_aluminium parts
+    4300004: Xbox ONE_satin chrome
+    4300006: Xbox ONE_satin plastic
+    4300008: Xbox ONE_logo glass
+    4300010: Xbox ONE_back part
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

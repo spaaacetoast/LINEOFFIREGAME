@@ -1,0 +1,416 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Texel
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: _LIGHTMAPPING_REALTIME _NORMALMAP _SPECGLOSSMAP
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 613a0b2a68857c8489e48acf665edebd, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 90fbf54007df70642b3b2773a1b34b86, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailNormalMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _EmissionMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ParallaxMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _OcclusionMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailMask
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailAlbedoMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 5, y: 5}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MetallicGlossMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecGlossMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 681eed68ec77aa44882e7886dcb26862, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DiffCubeIBL
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecCubeIBL
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _AO
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 48195fa8d50f94eafadcca48098c5926, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Cube
+        second:
+          m_Texture: {fileID: 8900000, guid: c2285009e5b91554d8055331e504afbd, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Normal
+        second:
+          m_Texture: {fileID: 2800000, guid: 90fbf54007df70642b3b2773a1b34b86, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Diffuse
+        second:
+          m_Texture: {fileID: 2800000, guid: 613a0b2a68857c8489e48acf665edebd, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DiffuseAmbientCUBE
+        second:
+          m_Texture: {fileID: 8900000, guid: c2285009e5b91554d8055331e504afbd, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DiffuseRGBGlossA
+        second:
+          m_Texture: {fileID: 2800000, guid: 613a0b2a68857c8489e48acf665edebd, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecularRGBglossA
+        second:
+          m_Texture: {fileID: 2800000, guid: ee2523340e7944c4297a80937a51484c, type: 3}
+          m_Scale: {x: 50, y: 50}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecularAmbientCUBE
+        second:
+          m_Texture: {fileID: 8900000, guid: 84f64973c0135c245ab71e57fe09f9ee, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DiffuseRGB
+        second:
+          m_Texture: {fileID: 2800000, guid: 613a0b2a68857c8489e48acf665edebd, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _node375
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _node134
+        second:
+          m_Texture: {fileID: 2800000, guid: c2285009e5b91554d8055331e504afbd, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DiffuseAL
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _StarTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: 0
+      data:
+        first:
+          name: _Shininess
+        second: 1
+      data:
+        first:
+          name: _AlphaTestRef
+        second: .5
+      data:
+        first:
+          name: _Exposure
+        second: 0
+      data:
+        first:
+          name: _SrcBlend
+        second: 1
+      data:
+        first:
+          name: _DstBlend
+        second: 0
+      data:
+        first:
+          name: _Lightmapping
+        second: 1
+      data:
+        first:
+          name: _Parallax
+        second: .0199999996
+      data:
+        first:
+          name: _ZWrite
+        second: 1
+      data:
+        first:
+          name: _Glossiness
+        second: .25
+      data:
+        first:
+          name: _BumpScale
+        second: 1
+      data:
+        first:
+          name: _OcclusionStrength
+        second: 1
+      data:
+        first:
+          name: _DetailNormalMapScale
+        second: 1
+      data:
+        first:
+          name: _UVSec
+        second: 0
+      data:
+        first:
+          name: _EmissionScaleUI
+        second: 0
+      data:
+        first:
+          name: _Mode
+        second: 0
+      data:
+        first:
+          name: _Metallic
+        second: .25
+      data:
+        first:
+          name: _Gloss
+        second: .410714298
+      data:
+        first:
+          name: _DiffuseAmbientPower
+        second: 8
+      data:
+        first:
+          name: _Specular
+        second: .142857134
+      data:
+        first:
+          name: _node231
+        second: 0
+      data:
+        first:
+          name: _FogDensity
+        second: 0
+      data:
+        first:
+          name: _fCameraHeight
+        second: 0
+      data:
+        first:
+          name: _fCameraHeight2
+        second: 0
+      data:
+        first:
+          name: _fOuterRadius
+        second: 0
+      data:
+        first:
+          name: _fOuterRadius2
+        second: 0
+      data:
+        first:
+          name: _fInnerRadius
+        second: 0
+      data:
+        first:
+          name: _fInnerRadius2
+        second: 0
+      data:
+        first:
+          name: _fKrESun
+        second: 0
+      data:
+        first:
+          name: _fKmESun
+        second: 0
+      data:
+        first:
+          name: _fKr4PI
+        second: 0
+      data:
+        first:
+          name: _fKm4PI
+        second: 0
+      data:
+        first:
+          name: _fScale
+        second: 0
+      data:
+        first:
+          name: _fScaleDepth
+        second: 0
+      data:
+        first:
+          name: _fScaleOverScaleDepth
+        second: 0
+      data:
+        first:
+          name: _Samples
+        second: 0
+      data:
+        first:
+          name: _G
+        second: 0
+      data:
+        first:
+          name: _G2
+        second: 0
+      data:
+        first:
+          name: _SkyBloomThreshold
+        second: 0
+    m_Colors:
+      data:
+        first:
+          name: _EmissionColor
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _EmissionColorUI
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _ReflectColor
+        second: {r: 1, g: 1, b: 1, a: .501960814}
+      data:
+        first:
+          name: _Specular
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _SpecularRGBGlossA
+        second: {r: .389705896, g: .389705896, b: .389705896, a: .670588255}
+      data:
+        first:
+          name: _SpecularAmbientColor
+        second: {r: .0980392173, g: .0980392173, b: .0980392173, a: 1}
+      data:
+        first:
+          name: _DiffuseAmbientColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SunColor
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _node297
+        second: {r: .5, g: .5, b: .5, a: 1}
+      data:
+        first:
+          name: _v4LightDir
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _v4CameraPos
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _cInvWaveLength
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _OffsetTransform
+        second: {r: 0, g: 0, b: 0, a: 1}

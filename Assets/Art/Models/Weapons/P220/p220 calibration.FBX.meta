@@ -1,0 +1,97 @@
+fileFormatVersion: 2
+guid: 5c6f04f0174bfd04cac7923ea7403a39
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: P220_CE
+    100004: P220_GEN PBR
+    100006: P220_MT2
+    100008: P220_UE
+    100010: P220_Unity
+    400000: //RootNode
+    400002: P220_CE
+    400004: P220_GEN PBR
+    400006: P220_MT2
+    400008: P220_UE
+    400010: P220_Unity
+    2300000: P220_CE
+    2300002: P220_GEN PBR
+    2300004: P220_MT2
+    2300006: P220_UE
+    2300008: P220_Unity
+    3300000: P220_CE
+    3300002: P220_GEN PBR
+    3300004: P220_MT2
+    3300006: P220_UE
+    3300008: P220_Unity
+    4300000: P220_CE
+    4300002: P220_UE
+    4300004: P220_GEN PBR
+    4300006: P220_MT2
+    4300008: P220_Unity
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.025
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

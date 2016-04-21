@@ -1,0 +1,279 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Vehicle - Sandcat - Exterior
+  m_Shader: {fileID: 4800000, guid: 2cb681f0d232b3341a83729b1d6a0a31, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: f660d0eb224950e428b0c68db39b5aca, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Reflection
+        second:
+          m_Texture: {fileID: 8900000, guid: e952b25dbce8bac43836393889a461c3, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 30281fbce78ef82478fe3acb9873f52b, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Normal
+        second:
+          m_Texture: {fileID: 2800000, guid: 30281fbce78ef82478fe3acb9873f52b, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Diffuse
+        second:
+          m_Texture: {fileID: 2800000, guid: f660d0eb224950e428b0c68db39b5aca, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Cube
+        second:
+          m_Texture: {fileID: 8900000, guid: e952b25dbce8bac43836393889a461c3, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Gloss
+        second:
+          m_Texture: {fileID: 2800000, guid: ab893d87667c46e4ba7206b9ceae5e54, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Specular
+        second:
+          m_Texture: {fileID: 2800000, guid: d22c8953599360b4ba78819910145a4b, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ParallaxMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecMap
+        second:
+          m_Texture: {fileID: 2800000, guid: d22c8953599360b4ba78819910145a4b, type: 3}
+          m_Scale: {x: 3, y: 3}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _AOTex
+        second:
+          m_Texture: {fileID: 2800000, guid: a435383734159784bb7727b0b05faabe, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _diffuse
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _specular
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _normal
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _emissive
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NormalMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 30281fbce78ef82478fe3acb9873f52b, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _RoughnessTex
+        second:
+          m_Texture: {fileID: 2800000, guid: a435383734159784bb7727b0b05faabe, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _AmbientDiffuse
+        second:
+          m_Texture: {fileID: 8900000, guid: 7339f72f5f6d29d438fcc5fe7227917a, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _AOmap
+        second:
+          m_Texture: {fileID: 2800000, guid: d4715908789f36340b2dd6f196440ebe, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ColorSnow
+        second:
+          m_Texture: {fileID: 2800000, guid: 8c62036bc84cb264ea61aabf5773ae02, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMapSnow
+        second:
+          m_Texture: {fileID: 2800000, guid: fb9a336e4ad0b084f806d539d827eb2f, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _CubeMap
+        second:
+          m_Texture: {fileID: 8900000, guid: e952b25dbce8bac43836393889a461c3, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: 1
+      data:
+        first:
+          name: _SpecularPower
+        second: 1
+      data:
+        first:
+          name: _GlossPower
+        second: 1.5
+      data:
+        first:
+          name: _ReflectivePower
+        second: .0500000007
+      data:
+        first:
+          name: _Parallax
+        second: .0199999996
+      data:
+        first:
+          name: _glossiness
+        second: .0489999987
+      data:
+        first:
+          name: _NormalPower
+        second: 1
+      data:
+        first:
+          name: _Ambient
+        second: 3
+      data:
+        first:
+          name: _SpecPower
+        second: 50
+      data:
+        first:
+          name: _Shadowing
+        second: -2.30769229
+      data:
+        first:
+          name: _Bumpiness
+        second: 2
+      data:
+        first:
+          name: _Roughness
+        second: 100
+      data:
+        first:
+          name: _Albedo
+        second: .75
+      data:
+        first:
+          name: _ReflectionAmnt
+        second: 0
+      data:
+        first:
+          name: rtp_snow_mult
+        second: 0
+      data:
+        first:
+          name: _AOIntensity
+        second: 2
+      data:
+        first:
+          name: _CubeMapPower
+        second: .25
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _ReflectColor
+        second: {r: .0627451017, g: .0627451017, b: .0627451017, a: .501960814}
+      data:
+        first:
+          name: _Emission
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _SpecularColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _MainColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _ReflectionColor
+        second: {r: .250980407, g: .250980407, b: .250980407, a: 1}
+      data:
+        first:
+          name: _ReflectionUnlitColor
+        second: {r: .501960814, g: .501960814, b: .501960814, a: 1}
+      data:
+        first:
+          name: _SpecColor1
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _AmbientTint
+        second: {r: .448529422, g: .448529422, b: .448529422, a: 1}

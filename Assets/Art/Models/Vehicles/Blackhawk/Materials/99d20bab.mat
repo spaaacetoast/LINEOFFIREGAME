@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 99d20bab
+  m_Shader: {fileID: 4800000, guid: 4c71682d22f104076810aecc34d36019, type: 3}
+  m_ShaderKeywords:
+  - DIFFCUBE_ON
+  - SPECCUBE_OFF
+  - LUX_AO_OFF
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 44e63a1341fc28b41a2fda6832047deb, type: 3}
+          m_Scale: {x: 5, y: 5}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 9f7dcf041fe00ab4da02ee5302dffd2a, type: 3}
+          m_Scale: {x: 5, y: 5}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DiffCubeIBL
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Normal
+        second:
+          m_Texture: {fileID: 2800000, guid: 9f7dcf041fe00ab4da02ee5302dffd2a, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Diffuse
+        second:
+          m_Texture: {fileID: 2800000, guid: 44e63a1341fc28b41a2fda6832047deb, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Cube
+        second:
+          m_Texture: {fileID: 8900000, guid: c2285009e5b91554d8055331e504afbd, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DiffuseAmbientCUBE
+        second:
+          m_Texture: {fileID: 8900000, guid: c2285009e5b91554d8055331e504afbd, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DiffuseRGBGlossA
+        second:
+          m_Texture: {fileID: 2800000, guid: 44e63a1341fc28b41a2fda6832047deb, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecularRGBglossA
+        second:
+          m_Texture: {fileID: 2800000, guid: 44e63a1341fc28b41a2fda6832047deb, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecularAmbientCUBE
+        second:
+          m_Texture: {fileID: 8900000, guid: 84f64973c0135c245ab71e57fe09f9ee, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _node375
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DiffuseRGB
+        second:
+          m_Texture: {fileID: 2800000, guid: 44e63a1341fc28b41a2fda6832047deb, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecCubeIBL
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 5c4ec66a169a441fcad37ff88dea9840, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _AO
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: 1
+      data:
+        first:
+          name: _Gloss
+        second: .428571433
+      data:
+        first:
+          name: _DiffuseAmbientPower
+        second: 8
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .99999994, g: .99999994, b: .99999994, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: .29411763, g: .29411763, b: .29411763, a: 1}
+      data:
+        first:
+          name: _Specular
+        second: {r: .5, g: .5, b: .5, a: 1}
+      data:
+        first:
+          name: _ReflectColor
+        second: {r: .501960814, g: .501960814, b: .501960814, a: .501960814}
+      data:
+        first:
+          name: _SpecularRGBGlossA
+        second: {r: .99999994, g: .99999994, b: .99999994, a: .56078434}
+      data:
+        first:
+          name: _SpecularAmbientColor
+        second: {r: .0784313753, g: .0784313753, b: .0784313753, a: 1}
+      data:
+        first:
+          name: _DiffuseAmbientColor
+        second: {r: 1, g: 1, b: 1, a: 1}

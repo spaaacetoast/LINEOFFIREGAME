@@ -1,0 +1,105 @@
+fileFormatVersion: 2
+guid: 6e4587af7692f3841b652d5219e718d2
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: SI-417 Bullet
+    100002: SI-417 Charging Handle_Main
+    100004: SI-417 Charging Handle_Release
+    100006: SI-417 Magazine
+    100008: SI-417 Main
+    100010: SI-417_bolt slide
+    100012: SI_417_IS_Base_Far
+    100014: //RootNode
+    400000: SI-417 Bullet
+    400002: SI-417 Charging Handle_Main
+    400004: SI-417 Charging Handle_Release
+    400006: SI-417 Magazine
+    400008: SI-417 Main
+    400010: SI-417_bolt slide
+    400012: SI_417_IS_Base_Far
+    400014: //RootNode
+    2300000: SI-417 Bullet
+    2300002: SI-417 Charging Handle_Main
+    2300004: SI-417 Charging Handle_Release
+    2300006: SI-417 Magazine
+    2300008: SI-417 Main
+    2300010: SI-417_bolt slide
+    3300000: SI-417 Bullet
+    3300002: SI-417 Charging Handle_Main
+    3300004: SI-417 Charging Handle_Release
+    3300006: SI-417 Magazine
+    3300008: SI-417 Main
+    3300010: SI-417_bolt slide
+    4300000: SI-417 Main
+    4300002: SI-417 Magazine
+    4300004: SI-417 Charging Handle_Main
+    4300006: SI-417 Charging Handle_Release
+    4300008: SI-417 Bullet
+    4300010: SI-417_bolt slide
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.001
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

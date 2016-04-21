@@ -1,0 +1,235 @@
+fileFormatVersion: 2
+guid: 53ea9560e3206d245bb05dc9229d7a03
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Base_Arms_Left001
+    100002: Base_Arms_Right001
+    100004: chamber slide cover
+    100006: CRAC -9 Bullets
+    100008: CRAC-9 Magazine
+    100010: //RootNode
+    100012: CRAC_Base_lod0
+    100014: Hands_FPV_Left001
+    100016: Hands_FPV_Right001
+    100018: iron sight_001
+    100020: iron sight_002
+    100022: slide pull_001
+    100024: Soldier_ L Calf
+    100026: Soldier_ L Clavicle
+    100028: Soldier_ L Finger0
+    100030: Soldier_ L Finger2
+    100032: Soldier_ L Finger3
+    100034: Soldier_ L Foot
+    100036: Soldier_ L Forearm1
+    100038: Soldier_ L Forearm2
+    100040: Soldier_ L Hand
+    100042: Soldier_ L Thigh
+    100044: Soldier_ L Toe0
+    100046: Soldier_ L UpperArm
+    100048: Soldier_ LDigit20
+    100050: Soldier_ LDigit22
+    100052: Soldier_ LDigit23
+    100054: Soldier_ LDigit30
+    100056: Soldier_ LDigit32
+    100058: Soldier_ LDigit33
+    100060: Soldier_ LDigit40
+    100062: Soldier_ LDigit42
+    100064: Soldier_ LDigit43
+    100066: Soldier_ LDigit50
+    100068: Soldier_ LDigit52
+    100070: Soldier_ LDigit53
+    100072: Soldier_ Neck
+    100074: Soldier_ Pelvis
+    100076: Soldier_ PelvisBone01
+    100078: Soldier_ R Calf
+    100080: Soldier_ R Clavicle
+    100082: Soldier_ R Finger0
+    100084: Soldier_ R Finger2
+    100086: Soldier_ R Finger3
+    100088: Soldier_ R Foot
+    100090: Soldier_ R Forearm1
+    100092: Soldier_ R Forearm2
+    100094: Soldier_ R Hand
+    100096: Soldier_ R Thigh
+    100098: Soldier_ R Toe0
+    100100: Soldier_ R UpperArm
+    100102: Soldier_ RDigit20
+    100104: Soldier_ RDigit22
+    100106: Soldier_ RDigit23
+    100108: Soldier_ RDigit30
+    100110: Soldier_ RDigit32
+    100112: Soldier_ RDigit33
+    100114: Soldier_ RDigit40
+    100116: Soldier_ RDigit42
+    100118: Soldier_ RDigit43
+    100120: Soldier_ RDigit50
+    100122: Soldier_ RDigit52
+    100124: Soldier_ RDigit53
+    100126: Soldier_ Spine1
+    100128: Soldier_ Spine2
+    100130: Soldier_Head
+    100132: Soldier_Ribcage
+    400000: Base_Arms_Left001
+    400002: Base_Arms_Right001
+    400004: chamber slide cover
+    400006: CRAC -9 Bullets
+    400008: CRAC-9 Magazine
+    400010: //RootNode
+    400012: CRAC_Base_lod0
+    400014: Hands_FPV_Left001
+    400016: Hands_FPV_Right001
+    400018: iron sight_001
+    400020: iron sight_002
+    400022: slide pull_001
+    400024: Soldier_ L Calf
+    400026: Soldier_ L Clavicle
+    400028: Soldier_ L Finger0
+    400030: Soldier_ L Finger2
+    400032: Soldier_ L Finger3
+    400034: Soldier_ L Foot
+    400036: Soldier_ L Forearm1
+    400038: Soldier_ L Forearm2
+    400040: Soldier_ L Hand
+    400042: Soldier_ L Thigh
+    400044: Soldier_ L Toe0
+    400046: Soldier_ L UpperArm
+    400048: Soldier_ LDigit20
+    400050: Soldier_ LDigit22
+    400052: Soldier_ LDigit23
+    400054: Soldier_ LDigit30
+    400056: Soldier_ LDigit32
+    400058: Soldier_ LDigit33
+    400060: Soldier_ LDigit40
+    400062: Soldier_ LDigit42
+    400064: Soldier_ LDigit43
+    400066: Soldier_ LDigit50
+    400068: Soldier_ LDigit52
+    400070: Soldier_ LDigit53
+    400072: Soldier_ Neck
+    400074: Soldier_ Pelvis
+    400076: Soldier_ PelvisBone01
+    400078: Soldier_ R Calf
+    400080: Soldier_ R Clavicle
+    400082: Soldier_ R Finger0
+    400084: Soldier_ R Finger2
+    400086: Soldier_ R Finger3
+    400088: Soldier_ R Foot
+    400090: Soldier_ R Forearm1
+    400092: Soldier_ R Forearm2
+    400094: Soldier_ R Hand
+    400096: Soldier_ R Thigh
+    400098: Soldier_ R Toe0
+    400100: Soldier_ R UpperArm
+    400102: Soldier_ RDigit20
+    400104: Soldier_ RDigit22
+    400106: Soldier_ RDigit23
+    400108: Soldier_ RDigit30
+    400110: Soldier_ RDigit32
+    400112: Soldier_ RDigit33
+    400114: Soldier_ RDigit40
+    400116: Soldier_ RDigit42
+    400118: Soldier_ RDigit43
+    400120: Soldier_ RDigit50
+    400122: Soldier_ RDigit52
+    400124: Soldier_ RDigit53
+    400126: Soldier_ Spine1
+    400128: Soldier_ Spine2
+    400130: Soldier_Head
+    400132: Soldier_Ribcage
+    2300000: chamber slide cover
+    2300002: CRAC -9 Bullets
+    2300004: CRAC-9 Magazine
+    2300006: CRAC_Base_lod0
+    2300008: iron sight_001
+    2300010: iron sight_002
+    2300012: slide pull_001
+    3300000: chamber slide cover
+    3300002: CRAC -9 Bullets
+    3300004: CRAC-9 Magazine
+    3300006: CRAC_Base_lod0
+    3300008: iron sight_001
+    3300010: iron sight_002
+    3300012: slide pull_001
+    4300000: Hands_FPV_Left001
+    4300002: Hands_FPV_Right001
+    4300004: Base_Arms_Right001
+    4300006: Base_Arms_Left001
+    4300008: CRAC_Base_lod0
+    4300010: iron sight_002
+    4300012: iron sight_001
+    4300014: chamber slide cover
+    4300016: slide pull_001
+    4300018: CRAC-9 Magazine
+    4300020: CRAC -9 Bullets
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Base_Arms_Left001
+    13700002: Base_Arms_Right001
+    13700004: Hands_FPV_Left001
+    13700006: Hands_FPV_Right001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.001
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

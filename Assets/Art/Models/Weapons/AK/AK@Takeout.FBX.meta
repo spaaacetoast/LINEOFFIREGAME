@@ -1,0 +1,480 @@
+fileFormatVersion: 2
+guid: 833e1ba01a1088b40b2334a21a790891
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: AK_20TM_chamberslide_lod0
+    100002: AK_20TM_lod0
+    100004: AK_20TM_Magazine_2_lod
+    100006: AK_20TM_Magazine_lod0
+    100008: AK_20TM_muzzle_lod0
+    100010: AK_Bullet_2_lod0
+    100012: AK_Bullet_lod0
+    100014: //RootNode
+    100016: Base_Arms_Left001
+    100018: Base_Arms_Right001
+    100020: Hands_FPV_Left001
+    100022: Hands_FPV_Right001
+    100024: Soldier_ L Calf
+    100026: Soldier_ L Clavicle
+    100028: Soldier_ L Finger0
+    100030: Soldier_ L Finger2
+    100032: Soldier_ L Finger3
+    100034: Soldier_ L Foot
+    100036: Soldier_ L Forearm1
+    100038: Soldier_ L Forearm2
+    100040: Soldier_ L Hand
+    100042: Soldier_ L Thigh
+    100044: Soldier_ L Toe0
+    100046: Soldier_ L UpperArm
+    100048: Soldier_ LDigit20
+    100050: Soldier_ LDigit22
+    100052: Soldier_ LDigit23
+    100054: Soldier_ LDigit30
+    100056: Soldier_ LDigit32
+    100058: Soldier_ LDigit33
+    100060: Soldier_ LDigit40
+    100062: Soldier_ LDigit42
+    100064: Soldier_ LDigit43
+    100066: Soldier_ LDigit50
+    100068: Soldier_ LDigit52
+    100070: Soldier_ LDigit53
+    100072: Soldier_ Neck
+    100074: Soldier_ Pelvis
+    100076: Soldier_ PelvisBone01
+    100078: Soldier_ R Calf
+    100080: Soldier_ R Clavicle
+    100082: Soldier_ R Finger0
+    100084: Soldier_ R Finger2
+    100086: Soldier_ R Finger3
+    100088: Soldier_ R Foot
+    100090: Soldier_ R Forearm1
+    100092: Soldier_ R Forearm2
+    100094: Soldier_ R Hand
+    100096: Soldier_ R Thigh
+    100098: Soldier_ R Toe0
+    100100: Soldier_ R UpperArm
+    100102: Soldier_ RDigit20
+    100104: Soldier_ RDigit22
+    100106: Soldier_ RDigit23
+    100108: Soldier_ RDigit30
+    100110: Soldier_ RDigit32
+    100112: Soldier_ RDigit33
+    100114: Soldier_ RDigit40
+    100116: Soldier_ RDigit42
+    100118: Soldier_ RDigit43
+    100120: Soldier_ RDigit50
+    100122: Soldier_ RDigit52
+    100124: Soldier_ RDigit53
+    100126: Soldier_ Spine1
+    100128: Soldier_ Spine2
+    100130: Soldier_Head
+    100132: Soldier_Ribcage
+    100134: AK_rail_mount_lod0
+    400000: AK_20TM_chamberslide_lod0
+    400002: AK_20TM_lod0
+    400004: AK_20TM_Magazine_2_lod
+    400006: AK_20TM_Magazine_lod0
+    400008: AK_20TM_muzzle_lod0
+    400010: AK_Bullet_2_lod0
+    400012: AK_Bullet_lod0
+    400014: //RootNode
+    400016: Base_Arms_Left001
+    400018: Base_Arms_Right001
+    400020: Hands_FPV_Left001
+    400022: Hands_FPV_Right001
+    400024: Soldier_ L Calf
+    400026: Soldier_ L Clavicle
+    400028: Soldier_ L Finger0
+    400030: Soldier_ L Finger2
+    400032: Soldier_ L Finger3
+    400034: Soldier_ L Foot
+    400036: Soldier_ L Forearm1
+    400038: Soldier_ L Forearm2
+    400040: Soldier_ L Hand
+    400042: Soldier_ L Thigh
+    400044: Soldier_ L Toe0
+    400046: Soldier_ L UpperArm
+    400048: Soldier_ LDigit20
+    400050: Soldier_ LDigit22
+    400052: Soldier_ LDigit23
+    400054: Soldier_ LDigit30
+    400056: Soldier_ LDigit32
+    400058: Soldier_ LDigit33
+    400060: Soldier_ LDigit40
+    400062: Soldier_ LDigit42
+    400064: Soldier_ LDigit43
+    400066: Soldier_ LDigit50
+    400068: Soldier_ LDigit52
+    400070: Soldier_ LDigit53
+    400072: Soldier_ Neck
+    400074: Soldier_ Pelvis
+    400076: Soldier_ PelvisBone01
+    400078: Soldier_ R Calf
+    400080: Soldier_ R Clavicle
+    400082: Soldier_ R Finger0
+    400084: Soldier_ R Finger2
+    400086: Soldier_ R Finger3
+    400088: Soldier_ R Foot
+    400090: Soldier_ R Forearm1
+    400092: Soldier_ R Forearm2
+    400094: Soldier_ R Hand
+    400096: Soldier_ R Thigh
+    400098: Soldier_ R Toe0
+    400100: Soldier_ R UpperArm
+    400102: Soldier_ RDigit20
+    400104: Soldier_ RDigit22
+    400106: Soldier_ RDigit23
+    400108: Soldier_ RDigit30
+    400110: Soldier_ RDigit32
+    400112: Soldier_ RDigit33
+    400114: Soldier_ RDigit40
+    400116: Soldier_ RDigit42
+    400118: Soldier_ RDigit43
+    400120: Soldier_ RDigit50
+    400122: Soldier_ RDigit52
+    400124: Soldier_ RDigit53
+    400126: Soldier_ Spine1
+    400128: Soldier_ Spine2
+    400130: Soldier_Head
+    400132: Soldier_Ribcage
+    400134: AK_rail_mount_lod0
+    2300000: AK_20TM_chamberslide_lod0
+    2300002: AK_20TM_lod0
+    2300004: AK_20TM_Magazine_2_lod
+    2300006: AK_20TM_Magazine_lod0
+    2300008: AK_20TM_muzzle_lod0
+    2300010: AK_Bullet_2_lod0
+    2300012: AK_Bullet_lod0
+    2300014: AK_rail_mount_lod0
+    3300000: AK_20TM_chamberslide_lod0
+    3300002: AK_20TM_lod0
+    3300004: AK_20TM_Magazine_2_lod
+    3300006: AK_20TM_Magazine_lod0
+    3300008: AK_20TM_muzzle_lod0
+    3300010: AK_Bullet_2_lod0
+    3300012: AK_Bullet_lod0
+    3300014: AK_rail_mount_lod0
+    4300000: Hands_FPV_Left001
+    4300002: Hands_FPV_Right001
+    4300004: Base_Arms_Right001
+    4300006: Base_Arms_Left001
+    4300008: AK_20TM_lod0
+    4300010: AK_20TM_muzzle_lod0
+    4300012: AK_20TM_chamberslide_lod0
+    4300014: AK_20TM_Magazine_lod0
+    4300016: AK_Bullet_lod0
+    4300018: AK_20TM_Magazine_2_lod
+    4300020: AK_Bullet_2_lod0
+    4300022: AK_rail_mount_lod0
+    7400000: AK@takeout
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Base_Arms_Left001
+    13700002: Base_Arms_Right001
+    13700004: Hands_FPV_Left001
+    13700006: Hands_FPV_Right001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: AK@takeout
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AK_20TM_lod0
+        weight: 1
+      - path: AK_20TM_lod0/AK_20TM_chamberslide_lod0
+        weight: 1
+      - path: AK_20TM_lod0/AK_20TM_muzzle_lod0
+        weight: 1
+      - path: AK_20TM_Magazine_2_lod
+        weight: 1
+      - path: AK_20TM_Magazine_2_lod/AK_Bullet_2_lod0
+        weight: 1
+      - path: AK_20TM_Magazine_lod0
+        weight: 1
+      - path: AK_20TM_Magazine_lod0/AK_Bullet_lod0
+        weight: 1
+      - path: Base_Arms_Left001
+        weight: 1
+      - path: Base_Arms_Right001
+        weight: 1
+      - path: Hands_FPV_Left001
+        weight: 1
+      - path: Hands_FPV_Right001
+        weight: 1
+      - path: Soldier_ PelvisBone01
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ L Thigh
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ L Thigh/Soldier_ L Calf
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ L Thigh/Soldier_ L Calf/Soldier_
+          L Foot
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ L Thigh/Soldier_ L Calf/Soldier_
+          L Foot/Soldier_ L Toe0
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ R Thigh
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ R Thigh/Soldier_ R Calf
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ R Thigh/Soldier_ R Calf/Soldier_
+          R Foot
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ R Thigh/Soldier_ R Calf/Soldier_
+          R Foot/Soldier_ R Toe0
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ Spine1
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ Spine1/Soldier_ Spine2
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ Spine1/Soldier_ Spine2/Soldier_Ribcage
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ Spine1/Soldier_ Spine2/Soldier_Ribcage/Soldier_
+          L Clavicle
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ Spine1/Soldier_ Spine2/Soldier_Ribcage/Soldier_
+          L Clavicle/Soldier_ L UpperArm
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ Spine1/Soldier_ Spine2/Soldier_Ribcage/Soldier_
+          L Clavicle/Soldier_ L UpperArm/Soldier_ L Forearm1
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ Spine1/Soldier_ Spine2/Soldier_Ribcage/Soldier_
+          L Clavicle/Soldier_ L UpperArm/Soldier_ L Forearm1/Soldier_ L Forearm2
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ Spine1/Soldier_ Spine2/Soldier_Ribcage/Soldier_
+          L Clavicle/Soldier_ L UpperArm/Soldier_ L Forearm1/Soldier_ L Forearm2/Soldier_
+          L Hand
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ Spine1/Soldier_ Spine2/Soldier_Ribcage/Soldier_
+          L Clavicle/Soldier_ L UpperArm/Soldier_ L Forearm1/Soldier_ L Forearm2/Soldier_
+          L Hand/Soldier_ L Finger0
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ Spine1/Soldier_ Spine2/Soldier_Ribcage/Soldier_
+          L Clavicle/Soldier_ L UpperArm/Soldier_ L Forearm1/Soldier_ L Forearm2/Soldier_
+          L Hand/Soldier_ L Finger0/Soldier_ L Finger2
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ Spine1/Soldier_ Spine2/Soldier_Ribcage/Soldier_
+          L Clavicle/Soldier_ L UpperArm/Soldier_ L Forearm1/Soldier_ L Forearm2/Soldier_
+          L Hand/Soldier_ L Finger0/Soldier_ L Finger2/Soldier_ L Finger3
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ Spine1/Soldier_ Spine2/Soldier_Ribcage/Soldier_
+          L Clavicle/Soldier_ L UpperArm/Soldier_ L Forearm1/Soldier_ L Forearm2/Soldier_
+          L Hand/Soldier_ LDigit20
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ Spine1/Soldier_ Spine2/Soldier_Ribcage/Soldier_
+          L Clavicle/Soldier_ L UpperArm/Soldier_ L Forearm1/Soldier_ L Forearm2/Soldier_
+          L Hand/Soldier_ LDigit20/Soldier_ LDigit22
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ Spine1/Soldier_ Spine2/Soldier_Ribcage/Soldier_
+          L Clavicle/Soldier_ L UpperArm/Soldier_ L Forearm1/Soldier_ L Forearm2/Soldier_
+          L Hand/Soldier_ LDigit20/Soldier_ LDigit22/Soldier_ LDigit23
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ Spine1/Soldier_ Spine2/Soldier_Ribcage/Soldier_
+          L Clavicle/Soldier_ L UpperArm/Soldier_ L Forearm1/Soldier_ L Forearm2/Soldier_
+          L Hand/Soldier_ LDigit30
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ Spine1/Soldier_ Spine2/Soldier_Ribcage/Soldier_
+          L Clavicle/Soldier_ L UpperArm/Soldier_ L Forearm1/Soldier_ L Forearm2/Soldier_
+          L Hand/Soldier_ LDigit30/Soldier_ LDigit32
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ Spine1/Soldier_ Spine2/Soldier_Ribcage/Soldier_
+          L Clavicle/Soldier_ L UpperArm/Soldier_ L Forearm1/Soldier_ L Forearm2/Soldier_
+          L Hand/Soldier_ LDigit30/Soldier_ LDigit32/Soldier_ LDigit33
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ Spine1/Soldier_ Spine2/Soldier_Ribcage/Soldier_
+          L Clavicle/Soldier_ L UpperArm/Soldier_ L Forearm1/Soldier_ L Forearm2/Soldier_
+          L Hand/Soldier_ LDigit40
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ Spine1/Soldier_ Spine2/Soldier_Ribcage/Soldier_
+          L Clavicle/Soldier_ L UpperArm/Soldier_ L Forearm1/Soldier_ L Forearm2/Soldier_
+          L Hand/Soldier_ LDigit40/Soldier_ LDigit42
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ Spine1/Soldier_ Spine2/Soldier_Ribcage/Soldier_
+          L Clavicle/Soldier_ L UpperArm/Soldier_ L Forearm1/Soldier_ L Forearm2/Soldier_
+          L Hand/Soldier_ LDigit40/Soldier_ LDigit42/Soldier_ LDigit43
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ Spine1/Soldier_ Spine2/Soldier_Ribcage/Soldier_
+          L Clavicle/Soldier_ L UpperArm/Soldier_ L Forearm1/Soldier_ L Forearm2/Soldier_
+          L Hand/Soldier_ LDigit50
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ Spine1/Soldier_ Spine2/Soldier_Ribcage/Soldier_
+          L Clavicle/Soldier_ L UpperArm/Soldier_ L Forearm1/Soldier_ L Forearm2/Soldier_
+          L Hand/Soldier_ LDigit50/Soldier_ LDigit52
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ Spine1/Soldier_ Spine2/Soldier_Ribcage/Soldier_
+          L Clavicle/Soldier_ L UpperArm/Soldier_ L Forearm1/Soldier_ L Forearm2/Soldier_
+          L Hand/Soldier_ LDigit50/Soldier_ LDigit52/Soldier_ LDigit53
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ Spine1/Soldier_ Spine2/Soldier_Ribcage/Soldier_
+          Neck
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ Spine1/Soldier_ Spine2/Soldier_Ribcage/Soldier_
+          Neck/Soldier_Head
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ Spine1/Soldier_ Spine2/Soldier_Ribcage/Soldier_
+          R Clavicle
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ Spine1/Soldier_ Spine2/Soldier_Ribcage/Soldier_
+          R Clavicle/Soldier_ R UpperArm
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ Spine1/Soldier_ Spine2/Soldier_Ribcage/Soldier_
+          R Clavicle/Soldier_ R UpperArm/Soldier_ R Forearm1
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ Spine1/Soldier_ Spine2/Soldier_Ribcage/Soldier_
+          R Clavicle/Soldier_ R UpperArm/Soldier_ R Forearm1/Soldier_ R Forearm2
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ Spine1/Soldier_ Spine2/Soldier_Ribcage/Soldier_
+          R Clavicle/Soldier_ R UpperArm/Soldier_ R Forearm1/Soldier_ R Forearm2/Soldier_
+          R Hand
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ Spine1/Soldier_ Spine2/Soldier_Ribcage/Soldier_
+          R Clavicle/Soldier_ R UpperArm/Soldier_ R Forearm1/Soldier_ R Forearm2/Soldier_
+          R Hand/Soldier_ R Finger0
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ Spine1/Soldier_ Spine2/Soldier_Ribcage/Soldier_
+          R Clavicle/Soldier_ R UpperArm/Soldier_ R Forearm1/Soldier_ R Forearm2/Soldier_
+          R Hand/Soldier_ R Finger0/Soldier_ R Finger2
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ Spine1/Soldier_ Spine2/Soldier_Ribcage/Soldier_
+          R Clavicle/Soldier_ R UpperArm/Soldier_ R Forearm1/Soldier_ R Forearm2/Soldier_
+          R Hand/Soldier_ R Finger0/Soldier_ R Finger2/Soldier_ R Finger3
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ Spine1/Soldier_ Spine2/Soldier_Ribcage/Soldier_
+          R Clavicle/Soldier_ R UpperArm/Soldier_ R Forearm1/Soldier_ R Forearm2/Soldier_
+          R Hand/Soldier_ RDigit20
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ Spine1/Soldier_ Spine2/Soldier_Ribcage/Soldier_
+          R Clavicle/Soldier_ R UpperArm/Soldier_ R Forearm1/Soldier_ R Forearm2/Soldier_
+          R Hand/Soldier_ RDigit20/Soldier_ RDigit22
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ Spine1/Soldier_ Spine2/Soldier_Ribcage/Soldier_
+          R Clavicle/Soldier_ R UpperArm/Soldier_ R Forearm1/Soldier_ R Forearm2/Soldier_
+          R Hand/Soldier_ RDigit20/Soldier_ RDigit22/Soldier_ RDigit23
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ Spine1/Soldier_ Spine2/Soldier_Ribcage/Soldier_
+          R Clavicle/Soldier_ R UpperArm/Soldier_ R Forearm1/Soldier_ R Forearm2/Soldier_
+          R Hand/Soldier_ RDigit30
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ Spine1/Soldier_ Spine2/Soldier_Ribcage/Soldier_
+          R Clavicle/Soldier_ R UpperArm/Soldier_ R Forearm1/Soldier_ R Forearm2/Soldier_
+          R Hand/Soldier_ RDigit30/Soldier_ RDigit32
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ Spine1/Soldier_ Spine2/Soldier_Ribcage/Soldier_
+          R Clavicle/Soldier_ R UpperArm/Soldier_ R Forearm1/Soldier_ R Forearm2/Soldier_
+          R Hand/Soldier_ RDigit30/Soldier_ RDigit32/Soldier_ RDigit33
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ Spine1/Soldier_ Spine2/Soldier_Ribcage/Soldier_
+          R Clavicle/Soldier_ R UpperArm/Soldier_ R Forearm1/Soldier_ R Forearm2/Soldier_
+          R Hand/Soldier_ RDigit40
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ Spine1/Soldier_ Spine2/Soldier_Ribcage/Soldier_
+          R Clavicle/Soldier_ R UpperArm/Soldier_ R Forearm1/Soldier_ R Forearm2/Soldier_
+          R Hand/Soldier_ RDigit40/Soldier_ RDigit42
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ Spine1/Soldier_ Spine2/Soldier_Ribcage/Soldier_
+          R Clavicle/Soldier_ R UpperArm/Soldier_ R Forearm1/Soldier_ R Forearm2/Soldier_
+          R Hand/Soldier_ RDigit40/Soldier_ RDigit42/Soldier_ RDigit43
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ Spine1/Soldier_ Spine2/Soldier_Ribcage/Soldier_
+          R Clavicle/Soldier_ R UpperArm/Soldier_ R Forearm1/Soldier_ R Forearm2/Soldier_
+          R Hand/Soldier_ RDigit50
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ Spine1/Soldier_ Spine2/Soldier_Ribcage/Soldier_
+          R Clavicle/Soldier_ R UpperArm/Soldier_ R Forearm1/Soldier_ R Forearm2/Soldier_
+          R Hand/Soldier_ RDigit50/Soldier_ RDigit52
+        weight: 1
+      - path: Soldier_ PelvisBone01/Soldier_ Pelvis/Soldier_ Spine1/Soldier_ Spine2/Soldier_Ribcage/Soldier_
+          R Clavicle/Soldier_ R UpperArm/Soldier_ R Forearm1/Soldier_ R Forearm2/Soldier_
+          R Hand/Soldier_ RDigit50/Soldier_ RDigit52/Soldier_ RDigit53
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.001
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

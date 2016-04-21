@@ -1,0 +1,152 @@
+fileFormatVersion: 2
+guid: 526aafcd18fb84740bc4ef84be27b344
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Cylinder158
+    100002: sandcat wheel_BL
+    100004: sandcat wheel_BR
+    100006: sandcat wheel_FL
+    100008: sandcat wheel_FR
+    100010: sandcat_base
+    100012: //RootNode
+    100014: windshield wiper_02
+    100016: windshield wiper_1
+    100018: Box28
+    100020: sancat interior
+    100022: Object
+    100024: Object008
+    100026: sandcat_steering wheel
+    100028: windshield wiper_003
+    100030: sandcat_od_gauge
+    100032: sandcat_od_gauge001
+    400000: Cylinder158
+    400002: sandcat wheel_BL
+    400004: sandcat wheel_BR
+    400006: sandcat wheel_FL
+    400008: sandcat wheel_FR
+    400010: sandcat_base
+    400012: //RootNode
+    400014: windshield wiper_02
+    400016: windshield wiper_1
+    400018: Box28
+    400020: sancat interior
+    400022: Object
+    400024: Object008
+    400026: sandcat_steering wheel
+    400028: windshield wiper_003
+    400030: sandcat_od_gauge
+    400032: sandcat_od_gauge001
+    2300000: Cylinder158
+    2300002: sandcat wheel_BL
+    2300004: sandcat wheel_BR
+    2300006: sandcat wheel_FL
+    2300008: sandcat wheel_FR
+    2300010: sandcat_base
+    2300012: windshield wiper_02
+    2300014: windshield wiper_1
+    2300016: Box28
+    2300018: sancat interior
+    2300020: Object
+    2300022: Object008
+    2300024: sandcat_steering wheel
+    2300026: windshield wiper_003
+    2300028: sandcat_od_gauge
+    2300030: sandcat_od_gauge001
+    3300000: Cylinder158
+    3300002: sandcat wheel_BL
+    3300004: sandcat wheel_BR
+    3300006: sandcat wheel_FL
+    3300008: sandcat wheel_FR
+    3300010: sandcat_base
+    3300012: windshield wiper_02
+    3300014: windshield wiper_1
+    3300016: Box28
+    3300018: sancat interior
+    3300020: Object
+    3300022: Object008
+    3300024: sandcat_steering wheel
+    3300026: windshield wiper_003
+    3300028: sandcat_od_gauge
+    3300030: sandcat_od_gauge001
+    4300000: sandcat_base
+    4300002: sandcat wheel_BL
+    4300004: Cylinder158
+    4300006: sandcat wheel_BR
+    4300008: sandcat wheel_FR
+    4300010: windshield wiper_1
+    4300012: sandcat wheel_FL
+    4300014: windshield wiper_02
+    4300016: Box28
+    4300018: sancat interior
+    4300020: Object
+    4300022: sandcat_steering wheel
+    4300024: Object008
+    4300026: windshield wiper_003
+    4300028: sandcat_od_gauge
+    4300030: sandcat_od_gauge001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

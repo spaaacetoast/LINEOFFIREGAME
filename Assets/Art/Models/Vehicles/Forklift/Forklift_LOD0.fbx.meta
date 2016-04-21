@@ -1,0 +1,120 @@
+fileFormatVersion: 2
+guid: f69cea5e659650f448e2af22a9b4434d
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Forklift_BackWheel_Left
+    100002: Forklift_BackWheel_Right
+    100004: Forklift_Body
+    100006: Forklift_Fork
+    100008: Forklift_FrontWheels
+    100010: //RootNode
+    100012: Forklift_saftyNet
+    100014: Forklift_Wheel
+    100016: group4
+    100018: group5
+    100020: Mid_Section3
+    400000: Forklift_BackWheel_Left
+    400002: Forklift_BackWheel_Right
+    400004: Forklift_Body
+    400006: Forklift_Fork
+    400008: Forklift_FrontWheels
+    400010: //RootNode
+    400012: Forklift_saftyNet
+    400014: Forklift_Wheel
+    400016: group4
+    400018: group5
+    400020: Mid_Section3
+    2300000: Forklift_BackWheel_Left
+    2300002: Forklift_BackWheel_Right
+    2300004: Forklift_Body
+    2300006: Forklift_Fork
+    2300008: Forklift_FrontWheels
+    2300010: Forklift_saftyNet
+    2300012: Forklift_Wheel
+    3300000: Forklift_BackWheel_Left
+    3300002: Forklift_BackWheel_Right
+    3300004: Forklift_Body
+    3300006: Forklift_Fork
+    3300008: Forklift_FrontWheels
+    3300010: Forklift_saftyNet
+    3300012: Forklift_Wheel
+    4300000: Forklift_BackWheel_Left
+    4300002: Forklift_BackWheel_Right
+    4300004: Forklift_Wheel
+    4300006: Forklift_FrontWheels
+    4300008: Forklift_Fork
+    4300010: Forklift_Body
+    4300012: Forklift_saftyNet
+    6400000: Forklift_BackWheel_Left
+    6400002: Forklift_BackWheel_Right
+    6400004: Forklift_Body
+    6400006: Forklift_Fork
+    6400008: Forklift_FrontWheels
+    6400010: Forklift_saftyNet
+    6400012: Forklift_Wheel
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
