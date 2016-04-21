@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2084043497, guid: 09c9b883b79ef864a99683bb36c5776d, type: 3}
+  m_Name: ControllerDataFiles
+  m_EditorClassIdentifier: 
+  defaultHardwareJoystickMap: {fileID: 11400000, guid: 3cbd233ccf0431c449af2fbcc882f266,
+    type: 2}
+  hardwareJoystickMaps:
+  - {fileID: 11400000, guid: 05f66480300b88645aebf9962934d554, type: 2}
+  - {fileID: 11400000, guid: 5d47793e65ad5314e8955046fa11f359, type: 2}
+  - {fileID: 11400000, guid: 8806bfb92931c4544a7ebd42e9cb53ce, type: 2}
+  - {fileID: 11400000, guid: c8e7ee694c990d14aa843d0b82d1552d, type: 2}
+  - {fileID: 11400000, guid: 98e7e439b7575794c912c559cbd3ea87, type: 2}
+  - {fileID: 11400000, guid: 25d5197998148774d93d9d5b6ba675a2, type: 2}
+  - {fileID: 11400000, guid: 1f82de0297b149644bfe83407c1f4e5c, type: 2}
+  - {fileID: 11400000, guid: b57975934979d6648a55b7ced4876c3a, type: 2}
+  - {fileID: 11400000, guid: dd2c1503536274001bdc3d5d6be8a98f, type: 2}
+  - {fileID: 11400000, guid: a25f0c1e102b54019bf551294306b277, type: 2}
+  - {fileID: 11400000, guid: 2b7ee0c33df0529408f498728b85f0c3, type: 2}
+  - {fileID: 11400000, guid: 900f3cdee29d1094ab71941e4388d65e, type: 2}
+  - {fileID: 11400000, guid: e6e9df3e9f7255b4e921898470665e24, type: 2}
+  - {fileID: 11400000, guid: 0abf19c79e122564ea3bc13997aa6a0c, type: 2}
+  - {fileID: 11400000, guid: 0a099d60095729a4c824d288142da34b, type: 2}
+  - {fileID: 11400000, guid: 354b5611a5b35c84f9ed9aab314b3937, type: 2}
+  - {fileID: 11400000, guid: ab34c8825048ddb46a02e63d10928a47, type: 2}
+  - {fileID: 11400000, guid: 48092104093e47246aacaddecb6c81f2, type: 2}
+  - {fileID: 11400000, guid: 1fa459b73e5712a4a95e3e71655b8767, type: 2}
+  - {fileID: 11400000, guid: 7a307642c32f15647bc6b0f77d6672c9, type: 2}
+  - {fileID: 11400000, guid: e2743c5f596f9ab488ff7c94afdda17e, type: 2}
+  - {fileID: 11400000, guid: 7c86271a5aa17a8459191b8f7fd6c98f, type: 2}
+  - {fileID: 11400000, guid: 0e96c4c02687d9349ad0ff44ae9d9fcf, type: 2}
+  - {fileID: 11400000, guid: 5b4ec7826eed24222ba948f77f2fa65c, type: 2}
+  joystickTemplates:
+  - {fileID: 11400000, guid: 91b946f6f6823f4469dbe63db04db904, type: 2}

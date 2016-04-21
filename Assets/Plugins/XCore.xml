@@ -1,0 +1,434 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AngryRain</name>
+    </assembly>
+    <members>
+        <member name="T:AngryRain.Mod.AdvanceIO">
+            <summary>
+            Used for Loading Game files e.g. Audio, Textures e.t.c.
+            To Load textures, audio, shaders or c# scripts use the following methods:
+            LoadAudio, LoadShader, LoadTexture, LoadScript.
+            When you load data the variable will be set to null until the data is loaded into memory
+            After they are loaded the methods will return a id for them.
+            if you want to get your loaded data use the following methods:
+            GetAudio, GetShader, GetTexture, GetScript
+            </summary>
+        </member>
+        <member name="M:AngryRain.Mod.AdvanceIO.GetAudioClip(System.Int32)">
+            <summary>
+            Gets an loaded audio clip
+            </summary>
+            <param name="id">The id of the audio clip</param>
+            <returns>Audio Clip</returns>
+        </member>
+        <member name="M:AngryRain.Mod.AdvanceIO.IsAudioLoaded(System.Int32)">
+            <summary>
+            Checks if the audio file is loaded into memory
+            </summary>
+            <param name="id">The id of the audio file</param>
+            <returns>returns true or false</returns>
+        </member>
+        <member name="M:AngryRain.Mod.AdvanceIO.LoadAudio(System.String,UnityEngine.AudioType,System.Boolean,AngryRain.Mod.AdvanceIO.IOError@)">
+            <summary>
+            
+            </summary>
+            <param name="filename">Full file name and path for the audio file</param>
+            <param name="type">The type of audio</param>
+            /// <param name="_3D">Is Audio 3D</param>
+            <param name="error">out parameter, returns any errors occured when loading audio</param>
+            <returns>returns the id of the loaded audio</returns>
+        </member>
+        <member name="M:AngryRain.Mod.AdvanceIO.LoadTexture(System.String,AngryRain.Mod.AdvanceIO.IOError@)">
+            <summary>
+            Loads a image into memory
+            </summary>
+            <param name="filename">image file to load</param>
+            <param name="error">returns any errors</param>
+            <returns></returns>
+        </member>
+        <member name="M:AngryRain.Mod.AdvanceIO.GetTexture(System.Int32)">
+            <summary>
+            Get the image as a Texture2D
+            </summary>
+            <param name="id">id for the image</param>
+            <returns>Returns the image as a texture2D</returns>
+        </member>
+        <member name="M:AngryRain.Mod.AdvanceIO.IsTextureLoaded(System.Int32)">
+            <summary>
+            Checks if the Texture is loaded
+            </summary>
+            <param name="id">The id of the texture</param>
+            <returns>returns true or false</returns>
+        </member>
+        <member name="M:AngryRain.Mod.AdvanceIO.LoadShader(System.String,AngryRain.Mod.AdvanceIO.IOError@)">
+            <summary>
+            Loads a shader from a file. WARNING: Only loads compiled shaders
+            </summary>
+            <param name="filename">file name and path to the shader</param>
+            <param name="error">error message if anything happenes</param>
+            <returns>returns the id of the shader</returns>
+        </member>
+        <member name="M:AngryRain.Mod.AdvanceIO.GetShader(System.Int32)">
+            <summary>
+            Get shader as a string
+            </summary>
+            <param name="id">id of the shader</param>
+            <returns>returns a string containing shader info</returns>
+        </member>
+        <member name="M:AngryRain.Mod.AdvanceIO.ShaderToMaterial(System.Int32)">
+            <summary>
+            Compiles shader and convert it to material
+            </summary>
+            <param name="id">id of shader</param>
+            <returns>Returns a material that has the shader applied</returns>
+        </member>
+        <member name="M:AngryRain.Mod.AdvanceIO.IsShaderLoaded(System.Int32)">
+            <summary>
+            Checks if the shader is loaded into memory
+            </summary>
+            <param name="id">The id of loading shader</param>
+            <returns>returns true or false</returns>
+        </member>
+        <member name="M:AngryRain.Mod.AdvanceIO.LoadScript(System.String,AngryRain.Mod.AdvanceIO.IOError@)">
+            <summary>
+            Please make sure the script you load uses MonoBehaviour Interface WARNING: Only loads compiled DLL files
+            </summary>
+            <param name="filename"></param>
+            <param name="error"></param>
+            <returns>Returns a material that has the shader applied</returns>
+        </member>
+        <member name="M:AngryRain.Mod.AdvanceIO.GetScript(System.Int32,System.String,AngryRain.Mod.AdvanceIO.IOError@)">
+            <summary>
+            Gets the script that's loaded into memory
+            </summary>
+            <param name="id">ID of the loaded script</param>
+            <param name="className">The class name of the script e.g. namespace.MyClass</param>
+            <param name="error">Any compiler errors are displayed here</param>
+            <returns>returns type of the script</returns>
+        </member>
+        <member name="M:AngryRain.Mod.AdvanceIO.IsScriptLoaded(System.Int32)">
+            <summary>
+            Checks if the script is loaded into memory
+            </summary>
+            <param name="id">The id of the script</param>
+            <returns>returns true or false</returns>
+        </member>
+        <member name="M:AngryRain.Mod.AdvanceIO.LoadGUI(System.String)">
+            <summary>
+            Loads GUISkin WARNING: Might freeze pc while loading
+            </summary>
+            <param name="directory">Dirictory where all the GUI Textures/data is stored</param>
+            <returns>returns a GUISkin that can be used in unity</returns>
+        </member>
+        <member name="E:AngryRain.Mod.AdvanceIO.Finished">
+            <summary>
+            When finished loading any data this event handler is called
+            </summary>
+        </member>
+        <member name="T:AngryRain.Mod.AdvanceIO.IOError">
+            <summary>
+            IO Errors
+            </summary>
+        </member>
+        <member name="T:AngryRain.Mod.AdvanceIO.DataType">
+            <summary>
+            All the types of data that can be loaded at runtime
+            </summary>
+        </member>
+        <member name="T:AngryRain.Mod.AdvanceIO.EventHandler">
+            <summary>
+            When finished loading any data this event handler is called
+            </summary>
+            <param name="id">the id of the data</param>
+            <param name="type">The type of data</param>
+        </member>
+        <member name="T:Encrpytion">
+            <summary>
+            Encryption is used to encrypt or decrypt any data.
+            </summary>
+        </member>
+        <member name="M:Encrpytion.Encrypt(System.String)">
+            <summary>
+            gets a string and returns a encrypted string. Must be logged in to use it. If you wish to encrypt other data look at Encrypt(message,key)
+            </summary>
+            <param name="message">string you would like to encrypt</param>
+            <returns>encrypted string</returns>
+        </member>
+        <member name="M:Encrpytion.Decrypt(System.String)">
+            <summary>
+            gets a encrypted string and returns a decrypted string. Must be logged in to use it. If you wish to decrypt other data look at Decrypt(message,key)
+            </summary>
+            <param name="message">string you would like to decrypt</param>
+            <returns>decrypted string</returns>
+        </member>
+        <member name="M:Encrpytion.Encrypt(System.String,System.String)">
+            <summary>
+            gets a string and returns a encrypted string.
+            </summary>
+            <param name="message">string you would like to encrypt</param>
+            <param name="key">encryption key</param>
+            <returns>encrypted string</returns>
+        </member>
+        <member name="M:Encrpytion.Decrypt(System.String,System.String)">
+            <summary>
+            gets a encrypted string and returns a decrypted string.
+            </summary>
+            <param name="message">string you would like to decrypt</param>
+            <param name="key">encryption key</param>
+            <returns>decrypted string</returns>
+        </member>
+        <member name="M:Encrpytion.StringGenerator(System.Int32)">
+            <summary>
+            Creates a random string
+            </summary>
+            <param name="length">Length of the string</param>
+            <returns>returns a randomly generated string</returns>
+        </member>
+        <member name="T:NetworkManager">
+            <summary>
+            Network Manager Class that manages the client side of connection and sends commands to the server.
+            </summary>
+        </member>
+        <member name="M:NetworkManager.LoggedIn">
+            <summary>
+            Checks if the user is logged in or not
+            </summary>
+            <returns>Returns a boolean</returns>
+        </member>
+        <member name="M:NetworkManager.GetUsername">
+            <summary>
+            Gets the username of the logged in user
+            </summary>
+            <returns>Returns a username as a string</returns>
+        </member>
+        <member name="M:NetworkManager.Login(System.String,System.String,System.String)">
+            <summary>
+            Use this method to login to the server so you can send it commands.
+            </summary>
+            <param name="ip">IP address of the server</param>
+            <param name="port">Port of the server</param>
+            <param name="username">Username to login the server with</param>
+            <param name="password">password to login the server with</param>
+            <returns>Server Responce</returns>
+        </member>
+        <member name="M:NetworkManager.Logout(System.String,System.String)">
+            <summary>
+            Force logout
+            </summary>
+            <param name="ip">Server IP</param>
+            <param name="port">Server Port</param>
+            <param name="username">Server username</param>
+            <returns></returns>
+        </member>
+        <member name="M:NetworkManager.Logout">
+            <summary>
+            Logout from the server
+            </summary>
+            <returns>Server Responce</returns>
+        </member>
+        <member name="M:NetworkManager.Register(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Registers a user to the server
+            </summary>
+            <param name="ip">IP address of the server</param>
+            <param name="port">Port of the server</param>
+            <param name="username">Username to register in the server</param>
+            <param name="password">Password to set for the username</param>
+            <param name="email">Email for the account</param>
+            <param name="name">Full name of the user</param>
+            <returns>Server Responce</returns>
+        </member>
+        <member name="M:NetworkManager.SendCommand(System.String)">
+            <summary>
+            Sends a command to the server and returns the server responce
+            </summary>
+            <param name="cmd">Comand you want to send to the server</param>
+            <returns>Server responce</returns>
+        </member>
+        <member name="M:NetworkManager.AddFriend(System.String)">
+            <summary>
+            Adds a friend to your list of friends
+            </summary>
+            <param name="friend">Friend to add</param>
+            <returns>Server Responce</returns>
+        </member>
+        <member name="M:NetworkManager.RemoveFriend(System.String)">
+            <summary>
+            Removes a friend from your list of friends
+            </summary>
+            <param name="friend">Friend to remove</param>
+            <returns>Server responce</returns>
+        </member>
+        <member name="M:NetworkManager.CreateLobby(System.String,System.String)">
+            <summary>
+            Create a lobby
+            </summary>
+            <param name="gameName">Lobby Name</param>
+            <param name="map">Map Name</param>
+        </member>
+        <member name="M:NetworkManager.CreateLobby(System.String,System.String,System.String)">
+            <summary>
+            Create a lobby with a password
+            </summary>
+            <param name="gameName">Lobby Name</param>
+            <param name="map">Map Name</param>
+            <param name="password">Password</param>
+        </member>
+        <member name="M:NetworkManager.RemoveLobby">
+            <summary>
+            Removes the lobby that is registered with the logged in username
+            </summary>
+        </member>
+        <member name="M:NetworkManager.SendMessage(System.String,System.String)">
+            <summary>
+            Sends a message to the user
+            </summary>
+            <param name="to">User who you want to send the message</param>
+            <param name="message">Message to send</param>
+        </member>
+        <member name="M:NetworkManager.GetMessage(System.Int32)">
+            <summary>
+            Gets the message and puts it in NetworkManager.messages[x].message
+            </summary>
+            <param name="id">ID of the message</param>
+        </member>
+        <member name="P:NetworkManager.serverResponce">
+            <summary>
+            Contains server responce to commands.
+            </summary>
+        </member>
+        <member name="P:NetworkManager.friends">
+            <summary>
+            Contains friends list for currently logged in user
+            </summary>
+        </member>
+        <member name="P:NetworkManager.messages">
+            <summary>
+            Contains all the messages sent to, currently logged in user
+            </summary>
+        </member>
+        <member name="T:UnityNetworkManager.Friend">
+            <summary>
+            Friend Class that contains the structure for how friend object is constructed.
+            When a friend is added a request to the friend is sent. When the request is accepted
+            'isRequest' variable will change to true for both the friend and the user who sent the request. 
+            </summary>
+        </member>
+        <member name="F:UnityNetworkManager.Friend.username">
+            <summary>
+            Friend's Username.
+            </summary>
+        </member>
+        <member name="F:UnityNetworkManager.Friend.isBlocked">
+            <summary>
+            If the friend is blocked or not
+            </summary>
+        </member>
+        <member name="F:UnityNetworkManager.Friend.isOnline">
+            <summary>
+            If the friend is online.
+            </summary>
+        </member>
+        <member name="F:UnityNetworkManager.Friend.isRequest">
+            <summary>
+            If the friend accepted the request.
+            </summary>
+        </member>
+        <member name="M:UnityNetworkManager.Friend.#ctor(System.String,System.Boolean,System.Boolean,System.Boolean)">
+            <summary>
+            Friend Constructor
+            </summary>
+            <param name="username">Username of the friend</param>
+            <param name="isBlocked">Is the friend blocked</param>
+            <param name="isOnline">Is the friend online</param>
+            <param name="isRequest">Is it a friend request</param>
+        </member>
+        <member name="T:UnityNetworkManager.Lobby">
+            <summary>
+            Lobby class contains all the information about the lobby
+            </summary>
+        </member>
+        <member name="F:UnityNetworkManager.Lobby.author">
+            <summary>
+            Who created the lobby
+            </summary>
+        </member>
+        <member name="F:UnityNetworkManager.Lobby.ip">
+            <summary>
+            The ip of the lobby
+            </summary>
+        </member>
+        <member name="F:UnityNetworkManager.Lobby.lobbyName">
+            <summary>
+            Lobby Name
+            </summary>
+        </member>
+        <member name="F:UnityNetworkManager.Lobby.currentPlayers">
+            <summary>
+            Currently connected users to the lobby
+            </summary>
+        </member>
+        <member name="F:UnityNetworkManager.Lobby.maxPlayers">
+            <summary>
+            Max Players that can be connected to the lobby
+            </summary>
+        </member>
+        <member name="F:UnityNetworkManager.Lobby.password">
+            <summary>
+            Password of the lobby, look at 'hasPassword' boolean
+            </summary>
+        </member>
+        <member name="F:UnityNetworkManager.Lobby.map">
+            <summary>
+            The map of the lobby
+            </summary>
+        </member>
+        <member name="F:UnityNetworkManager.Lobby.hasPassword">
+            <summary>
+            If the lobby has a password
+            </summary>
+        </member>
+        <member name="M:UnityNetworkManager.Lobby.#ctor(System.String,System.String,System.String,System.Int32,System.Int32,System.Boolean,System.String,System.String)">
+            <summary>
+            Lobby class contains all the information about the lobby
+            </summary>
+        </member>
+        <member name="T:UnityNetworkManager.Message">
+            <summary>
+            Stores all the information about a message that is sent from or to the user
+            </summary>
+        </member>
+        <member name="F:UnityNetworkManager.Message.id">
+            <summary>
+            Message ID
+            </summary>
+        </member>
+        <member name="F:UnityNetworkManager.Message.from">
+            <summary>
+            Message sent from
+            </summary>
+        </member>
+        <member name="F:UnityNetworkManager.Message.to">
+            <summary>
+            Message recived by
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "F:UnityNetworkManager.Message.date" -->
+        <member name="F:UnityNetworkManager.Message.message">
+            <summary>
+            Message, This will be null until you get the message using GetMessage(id); method
+            </summary>
+        </member>
+        <member name="F:UnityNetworkManager.Message.read">
+            <summary>
+            Weather the user has read the message or not
+            </summary>
+        </member>
+        <member name="M:UnityNetworkManager.Message.#ctor(System.Int32,System.String,System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            Stores all the information about a message that is sent from or to the user
+            </summary>
+        </member>
+    </members>
+</doc>

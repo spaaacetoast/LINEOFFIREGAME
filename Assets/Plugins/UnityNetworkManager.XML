@@ -1,0 +1,343 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UnityNetworkManager</name>
+    </assembly>
+    <members>
+        <member name="T:AdvanceIO">
+            <summary>
+            Used for Loading Game files e.g. Audio, Textures e.t.c.
+            </summary>
+        </member>
+        <member name="M:AdvanceIO.GetAudioClip(System.Int32)">
+            <summary>
+            Gets an loaded audio clip
+            </summary>
+            <param name="id">The id of the audio clip</param>
+            <returns>Audio Clip</returns>
+        </member>
+        <member name="M:AdvanceIO.DisposeAudio(System.Int32)">
+            <summary>
+            Disposes the audio and removes from memory
+            </summary>
+            <param name="id">The id of the audio you wish to dispose</param>
+        </member>
+        <member name="M:AdvanceIO.LoadAudio(System.String,UnityEngine.AudioType,System.Boolean,AdvanceIO.IOError@)">
+            <summary>
+            
+            </summary>
+            <param name="fileName">Full file name and path for the audio file</param>
+            <param name="type">The type of audio</param>
+            /// <param name="_3D">Is Audio 3D</param>
+            <param name="error">out parameter, returns any errors occured when loading audio</param>
+            <returns>returns the id of the loaded audio</returns>
+        </member>
+        <member name="T:AdvanceIO.IOError">
+            <summary>
+            IO Errors
+            </summary>
+        </member>
+        <member name="T:Encrpytion">
+            <summary>
+            Encryption is used to encrypt or decrypt any data.
+            </summary>
+        </member>
+        <member name="M:Encrpytion.Encrypt(System.String)">
+            <summary>
+            gets a string and returns a encrypted string. Must be logged in to use it. If you wish to encrypt other data look at Encrypt(message,key)
+            </summary>
+            <param name="message">string you would like to encrypt</param>
+            <returns>encrypted string</returns>
+        </member>
+        <member name="M:Encrpytion.Decrypt(System.String)">
+            <summary>
+            gets a encrypted string and returns a decrypted string. Must be logged in to use it. If you wish to decrypt other data look at Decrypt(message,key)
+            </summary>
+            <param name="message">string you would like to decrypt</param>
+            <returns>decrypted string</returns>
+        </member>
+        <member name="M:Encrpytion.Encrypt(System.String,System.String)">
+            <summary>
+            gets a string and returns a encrypted string.
+            </summary>
+            <param name="message">string you would like to encrypt</param>
+            <param name="key">encryption key</param>
+            <returns>encrypted string</returns>
+        </member>
+        <member name="M:Encrpytion.Decrypt(System.String,System.String)">
+            <summary>
+            gets a encrypted string and returns a decrypted string.
+            </summary>
+            <param name="message">string you would like to decrypt</param>
+            <param name="key">encryption key</param>
+            <returns>decrypted string</returns>
+        </member>
+        <member name="M:Encrpytion.StringGenerator(System.Int32)">
+            <summary>
+            Creates a random string
+            </summary>
+            <param name="length">Length of the string</param>
+            <returns>returns a randomly generated string</returns>
+        </member>
+        <member name="T:NetworkManager">
+            <summary>
+            Network Manager Class that manages the client side of connection and sends commands to the server.
+            </summary>
+        </member>
+        <member name="F:NetworkManager.client">
+            <summary>
+            TCP Client Connection, Please don't mess about with this if you don't know what your doing.
+            </summary>
+        </member>
+        <member name="F:NetworkManager.serverResponce">
+            <summary>
+            Contains server responce to commands.
+            </summary>
+        </member>
+        <member name="F:NetworkManager.connections">
+            <summary>
+            Please do not change this variable. It contains connections made to the server
+            </summary>
+        </member>
+        <member name="F:NetworkManager.totalConnections">
+            <summary>
+            Please do not change this variable. It contains max connections that can be made to the server
+            </summary>
+        </member>
+        <member name="M:NetworkManager.LoggedIn">
+            <summary>
+            Checks if the user is logged in or not
+            </summary>
+            <returns>Returns a boolean</returns>
+        </member>
+        <member name="M:NetworkManager.GetUsername">
+            <summary>
+            Gets the username of the logged in user
+            </summary>
+            <returns>Returns a username as a string</returns>
+        </member>
+        <member name="M:NetworkManager.Login(System.String,System.String,System.String)">
+            <summary>
+            Use this method to login to the server so you can send it commands.
+            </summary>
+            <param name="ip">IP address of the server</param>
+            <param name="port">Port of the server</param>
+            <param name="username">Username to login the server with</param>
+            <param name="password">password to login the server with</param>
+            <returns>Server Responce</returns>
+        </member>
+        <member name="M:NetworkManager.Logout(System.String,System.String)">
+            <summary>
+            Force logout
+            </summary>
+            <param name="ip">Server IP</param>
+            <param name="port">Server Port</param>
+            <param name="username">Server username</param>
+            <returns></returns>
+        </member>
+        <member name="M:NetworkManager.Logout">
+            <summary>
+            Logout from the server
+            </summary>
+            <returns>Server Responce</returns>
+        </member>
+        <member name="M:NetworkManager.Register(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Registers a user to the server
+            </summary>
+            <param name="ip">IP address of the server</param>
+            <param name="port">Port of the server</param>
+            <param name="username">Username to register in the server</param>
+            <param name="password">Password to set for the username</param>
+            <param name="email">Email for the account</param>
+            <param name="name">Full name of the user</param>
+            <returns>Server Responce</returns>
+        </member>
+        <member name="M:NetworkManager.SendCommand(System.String)">
+            <summary>
+            Sends a command to the server and returns the server responce
+            </summary>
+            <param name="cmd">Comand you want to send to the server</param>
+            <returns>Server responce</returns>
+        </member>
+        <member name="M:NetworkManager.AddFriend(System.String)">
+            <summary>
+            Adds a friend to your list of friends
+            </summary>
+            <param name="friend">Friend to add</param>
+            <returns>Server Responce</returns>
+        </member>
+        <member name="M:NetworkManager.RemoveFriend(System.String)">
+            <summary>
+            Removes a friend from your list of friends
+            </summary>
+            <param name="friend">Friend to remove</param>
+            <returns>Server responce</returns>
+        </member>
+        <member name="M:NetworkManager.CreateLobby(System.String,System.String)">
+            <summary>
+            Create a lobby
+            </summary>
+            <param name="gameName">Lobby Name</param>
+            <param name="map">Map Name</param>
+        </member>
+        <member name="M:NetworkManager.CreateLobby(System.String,System.String,System.String)">
+            <summary>
+            Create a lobby with a password
+            </summary>
+            <param name="gameName">Lobby Name</param>
+            <param name="map">Map Name</param>
+            <param name="password">Password</param>
+        </member>
+        <member name="M:NetworkManager.RemoveLobby">
+            <summary>
+            Removes the lobby that is registered with the logged in username
+            </summary>
+        </member>
+        <member name="M:NetworkManager.SendMessage(System.String,System.String)">
+            <summary>
+            Sends a message to the user
+            </summary>
+            <param name="to">User who you want to send the message</param>
+            <param name="message">Message to send</param>
+        </member>
+        <member name="M:NetworkManager.GetMessage(System.Int32)">
+            <summary>
+            Gets the message and puts it in NetworkManager.messages[x].message
+            </summary>
+            <param name="id">ID of the message</param>
+        </member>
+        <member name="P:NetworkManager.friends">
+            <summary>
+            Contains friends list for currently logged in user
+            </summary>
+        </member>
+        <member name="P:NetworkManager.messages">
+            <summary>
+            Contains all the messages sent to, currently logged in user
+            </summary>
+        </member>
+        <member name="T:UnityNetworkManager.Friend">
+            <summary>
+            Friend Class that contains the structure for how friend object is constructed.
+            When a friend is added a request to the friend is sent. When the request is accepted
+            'isRequest' variable will change to true for both the friend and the user who sent the request. 
+            </summary>
+        </member>
+        <member name="F:UnityNetworkManager.Friend.username">
+            <summary>
+            Friend's Username.
+            </summary>
+        </member>
+        <member name="F:UnityNetworkManager.Friend.isBlocked">
+            <summary>
+            If the friend is blocked or not
+            </summary>
+        </member>
+        <member name="F:UnityNetworkManager.Friend.isOnline">
+            <summary>
+            If the friend is online.
+            </summary>
+        </member>
+        <member name="F:UnityNetworkManager.Friend.isRequest">
+            <summary>
+            If the friend accepted the request.
+            </summary>
+        </member>
+        <member name="M:UnityNetworkManager.Friend.#ctor(System.String,System.Boolean,System.Boolean,System.Boolean)">
+            <summary>
+            Friend Constructor
+            </summary>
+            <param name="username">Username of the friend</param>
+            <param name="isBlocked">Is the friend blocked</param>
+            <param name="isOnline">Is the friend online</param>
+            <param name="isRequest">Is it a friend request</param>
+        </member>
+        <member name="T:UnityNetworkManager.Lobby">
+            <summary>
+            Lobby class contains all the information about the lobby
+            </summary>
+        </member>
+        <member name="F:UnityNetworkManager.Lobby.author">
+            <summary>
+            Who created the lobby
+            </summary>
+        </member>
+        <member name="F:UnityNetworkManager.Lobby.ip">
+            <summary>
+            The ip of the lobby
+            </summary>
+        </member>
+        <member name="F:UnityNetworkManager.Lobby.lobbyName">
+            <summary>
+            Lobby Name
+            </summary>
+        </member>
+        <member name="F:UnityNetworkManager.Lobby.currentPlayers">
+            <summary>
+            Currently connected users to the lobby
+            </summary>
+        </member>
+        <member name="F:UnityNetworkManager.Lobby.maxPlayers">
+            <summary>
+            Max Players that can be connected to the lobby
+            </summary>
+        </member>
+        <member name="F:UnityNetworkManager.Lobby.password">
+            <summary>
+            Password of the lobby, look at 'hasPassword' boolean
+            </summary>
+        </member>
+        <member name="F:UnityNetworkManager.Lobby.map">
+            <summary>
+            The map of the lobby
+            </summary>
+        </member>
+        <member name="F:UnityNetworkManager.Lobby.hasPassword">
+            <summary>
+            If the lobby has a password
+            </summary>
+        </member>
+        <member name="M:UnityNetworkManager.Lobby.#ctor(System.String,System.String,System.String,System.Int32,System.Int32,System.Boolean,System.String,System.String)">
+            <summary>
+            Lobby class contains all the information about the lobby
+            </summary>
+        </member>
+        <member name="T:UnityNetworkManager.Message">
+            <summary>
+            Stores all the information about a message that is sent from or to the user
+            </summary>
+        </member>
+        <member name="F:UnityNetworkManager.Message.id">
+            <summary>
+            Message ID
+            </summary>
+        </member>
+        <member name="F:UnityNetworkManager.Message.from">
+            <summary>
+            Message sent from
+            </summary>
+        </member>
+        <member name="F:UnityNetworkManager.Message.to">
+            <summary>
+            Message recived by
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "F:UnityNetworkManager.Message.date" -->
+        <member name="F:UnityNetworkManager.Message.message">
+            <summary>
+            Message, This will be null until you get the message using GetMessage(id); method
+            </summary>
+        </member>
+        <member name="F:UnityNetworkManager.Message.read">
+            <summary>
+            Weather the user has read the message or not
+            </summary>
+        </member>
+        <member name="M:UnityNetworkManager.Message.#ctor(System.Int32,System.String,System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            Stores all the information about a message that is sent from or to the user
+            </summary>
+        </member>
+    </members>
+</doc>

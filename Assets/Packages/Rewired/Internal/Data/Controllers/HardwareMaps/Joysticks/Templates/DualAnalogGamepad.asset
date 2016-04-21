@@ -1,0 +1,892 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1351212051, guid: 09c9b883b79ef864a99683bb36c5776d, type: 3}
+  m_Name: DualAnalogGamepad
+  m_EditorClassIdentifier: 
+  controllerName: Dual Analog Gamepad
+  description: Template for a dual analog game pad with up to 6 action buttons, 4
+    triggers, and 3 center buttons.
+  templateGuid: 83b427e4-086f-47f3-bb06-be266abd1ca5
+  elementIdentifiers:
+  - _id: 0
+    _name: Left Stick X
+    _elementType: 0
+  - _id: 1
+    _name: Left Stick Y
+    _elementType: 0
+  - _id: 2
+    _name: Right Stick X
+    _elementType: 0
+  - _id: 3
+    _name: Right Stick Y
+    _elementType: 0
+  - _id: 4
+    _name: Action Bottom Row 1
+    _elementType: 1
+  - _id: 5
+    _name: Action Bottom Row 2
+    _elementType: 1
+  - _id: 6
+    _name: Action Bottom Row 3
+    _elementType: 1
+  - _id: 7
+    _name: Action Top Row 1
+    _elementType: 1
+  - _id: 8
+    _name: Action Top Row 2
+    _elementType: 1
+  - _id: 9
+    _name: Action Top Row 3
+    _elementType: 1
+  - _id: 10
+    _name: Left Shoulder 1
+    _elementType: 1
+  - _id: 11
+    _name: Left Shoulder 2
+    _elementType: 1
+  - _id: 12
+    _name: Right Shoulder 1
+    _elementType: 1
+  - _id: 13
+    _name: Right Shoulder 2
+    _elementType: 1
+  - _id: 14
+    _name: Center 1
+    _elementType: 1
+  - _id: 15
+    _name: Center 2
+    _elementType: 1
+  - _id: 16
+    _name: Center 3
+    _elementType: 1
+  - _id: 17
+    _name: Left Stick Button
+    _elementType: 1
+  - _id: 18
+    _name: Right Stick Button
+    _elementType: 1
+  - _id: 19
+    _name: D-Pad Up
+    _elementType: 1
+  - _id: 20
+    _name: D-Pad Right
+    _elementType: 1
+  - _id: 21
+    _name: D-Pad Down
+    _elementType: 1
+  - _id: 22
+    _name: D-Pad Left
+    _elementType: 1
+  joysticks:
+  - id: 0
+    name: Xbox 360 Controller
+    joystickGuid: d74a350e-fe8b-4e9e-bbcd-efff16d34115
+    fileGuid: 05f66480300b88645aebf9962934d554
+    elementIdentifierMappings:
+    - templateId: 0
+      joystickId: 0
+    - templateId: 1
+      joystickId: 1
+    - templateId: 2
+      joystickId: 2
+    - templateId: 3
+      joystickId: 3
+    - templateId: 4
+      joystickId: 6
+    - templateId: 5
+      joystickId: 7
+    - templateId: 7
+      joystickId: 8
+    - templateId: 8
+      joystickId: 9
+    - templateId: 10
+      joystickId: 10
+    - templateId: 12
+      joystickId: 11
+    - templateId: 14
+      joystickId: 12
+    - templateId: 15
+      joystickId: 13
+    - templateId: 17
+      joystickId: 14
+    - templateId: 18
+      joystickId: 15
+    - templateId: 19
+      joystickId: 16
+    - templateId: 20
+      joystickId: 17
+    - templateId: 21
+      joystickId: 18
+    - templateId: 22
+      joystickId: 19
+    - templateId: 11
+      joystickId: 4
+    - templateId: 13
+      joystickId: 5
+  - id: 1
+    name: Logitech Dual Action
+    joystickGuid: 886dd9d4-58ce-4212-90f5-2967676e7823
+    fileGuid: 1f82de0297b149644bfe83407c1f4e5c
+    elementIdentifierMappings:
+    - templateId: 0
+      joystickId: 0
+    - templateId: 1
+      joystickId: 1
+    - templateId: 2
+      joystickId: 2
+    - templateId: 3
+      joystickId: 3
+    - templateId: 4
+      joystickId: 5
+    - templateId: 5
+      joystickId: 6
+    - templateId: 7
+      joystickId: 4
+    - templateId: 8
+      joystickId: 7
+    - templateId: 10
+      joystickId: 8
+    - templateId: 11
+      joystickId: 9
+    - templateId: 12
+      joystickId: 10
+    - templateId: 13
+      joystickId: 11
+    - templateId: 14
+      joystickId: 12
+    - templateId: 15
+      joystickId: 13
+    - templateId: 17
+      joystickId: 15
+    - templateId: 18
+      joystickId: 16
+    - templateId: 19
+      joystickId: 17
+    - templateId: 20
+      joystickId: 18
+    - templateId: 21
+      joystickId: 19
+    - templateId: 22
+      joystickId: 20
+  - id: 2
+    name: GGE909 Recoil
+    joystickGuid: d74cc9ec-a991-4e27-b6c2-b2f50e86f9cf
+    fileGuid: e6e9df3e9f7255b4e921898470665e24
+    elementIdentifierMappings:
+    - templateId: 0
+      joystickId: 0
+    - templateId: 1
+      joystickId: 1
+    - templateId: 2
+      joystickId: 2
+    - templateId: 3
+      joystickId: 3
+    - templateId: 4
+      joystickId: 6
+    - templateId: 5
+      joystickId: 5
+    - templateId: 7
+      joystickId: 7
+    - templateId: 8
+      joystickId: 4
+    - templateId: 10
+      joystickId: 8
+    - templateId: 11
+      joystickId: 9
+    - templateId: 12
+      joystickId: 10
+    - templateId: 13
+      joystickId: 11
+    - templateId: 14
+      joystickId: 12
+    - templateId: 15
+      joystickId: 13
+    - templateId: 17
+      joystickId: 14
+    - templateId: 18
+      joystickId: 15
+    - templateId: 19
+      joystickId: 16
+    - templateId: 20
+      joystickId: 17
+    - templateId: 21
+      joystickId: 18
+    - templateId: 22
+      joystickId: 19
+  - id: 3
+    name: Nyko AirFlo EX
+    joystickGuid: ace58550-b1f6-4a3d-8f9b-b9c8331d05c6
+    fileGuid: 0abf19c79e122564ea3bc13997aa6a0c
+    elementIdentifierMappings:
+    - templateId: 0
+      joystickId: 0
+    - templateId: 1
+      joystickId: 1
+    - templateId: 2
+      joystickId: 2
+    - templateId: 3
+      joystickId: 3
+    - templateId: 4
+      joystickId: 4
+    - templateId: 5
+      joystickId: 5
+    - templateId: 7
+      joystickId: 6
+    - templateId: 8
+      joystickId: 7
+    - templateId: 10
+      joystickId: 8
+    - templateId: 11
+      joystickId: 9
+    - templateId: 12
+      joystickId: 10
+    - templateId: 13
+      joystickId: 11
+    - templateId: 14
+      joystickId: 12
+    - templateId: 15
+      joystickId: 13
+    - templateId: 16
+      joystickId: 14
+    - templateId: 17
+      joystickId: 15
+    - templateId: 18
+      joystickId: 16
+    - templateId: 19
+      joystickId: 17
+    - templateId: 20
+      joystickId: 18
+    - templateId: 21
+      joystickId: 19
+    - templateId: 22
+      joystickId: 20
+  - id: 4
+    name: Saitek P880
+    joystickGuid: d57b39e3-3d12-4750-84b0-7a28c5341e88
+    fileGuid: 2b7ee0c33df0529408f498728b85f0c3
+    elementIdentifierMappings:
+    - templateId: 0
+      joystickId: 0
+    - templateId: 1
+      joystickId: 1
+    - templateId: 2
+      joystickId: 2
+    - templateId: 3
+      joystickId: 3
+    - templateId: 4
+      joystickId: 6
+    - templateId: 5
+      joystickId: 7
+    - templateId: 6
+      joystickId: 9
+    - templateId: 7
+      joystickId: 4
+    - templateId: 8
+      joystickId: 5
+    - templateId: 9
+      joystickId: 8
+    - templateId: 10
+      joystickId: 10
+    - templateId: 12
+      joystickId: 11
+    - templateId: 14
+      joystickId: 15
+    - templateId: 17
+      joystickId: 12
+    - templateId: 18
+      joystickId: 13
+    - templateId: 19
+      joystickId: 16
+    - templateId: 20
+      joystickId: 17
+    - templateId: 21
+      joystickId: 18
+    - templateId: 22
+      joystickId: 19
+  - id: 5
+    name: Saitek P990
+    joystickGuid: 34bb2e2c-85c5-47eb-9b77-833c2aac4ec3
+    fileGuid: 900f3cdee29d1094ab71941e4388d65e
+    elementIdentifierMappings:
+    - templateId: 0
+      joystickId: 0
+    - templateId: 1
+      joystickId: 1
+    - templateId: 2
+      joystickId: 2
+    - templateId: 3
+      joystickId: 3
+    - templateId: 4
+      joystickId: 5
+    - templateId: 5
+      joystickId: 6
+    - templateId: 6
+      joystickId: 9
+    - templateId: 7
+      joystickId: 4
+    - templateId: 8
+      joystickId: 7
+    - templateId: 9
+      joystickId: 8
+    - templateId: 10
+      joystickId: 10
+    - templateId: 11
+      joystickId: 11
+    - templateId: 12
+      joystickId: 12
+    - templateId: 13
+      joystickId: 13
+    - templateId: 14
+      joystickId: 17
+    - templateId: 17
+      joystickId: 14
+    - templateId: 18
+      joystickId: 15
+    - templateId: 19
+      joystickId: 18
+    - templateId: 20
+      joystickId: 19
+    - templateId: 21
+      joystickId: 20
+    - templateId: 22
+      joystickId: 21
+  - id: 6
+    name: Logitech F310 (X)
+    joystickGuid: d9623ff0-6911-4028-b7a5-b98faa6d2c55
+    fileGuid: c8e7ee694c990d14aa843d0b82d1552d
+    elementIdentifierMappings:
+    - templateId: 0
+      joystickId: 0
+    - templateId: 1
+      joystickId: 1
+    - templateId: 2
+      joystickId: 2
+    - templateId: 3
+      joystickId: 3
+    - templateId: 4
+      joystickId: 6
+    - templateId: 5
+      joystickId: 7
+    - templateId: 7
+      joystickId: 8
+    - templateId: 8
+      joystickId: 9
+    - templateId: 10
+      joystickId: 10
+    - templateId: 11
+      joystickId: 4
+    - templateId: 12
+      joystickId: 11
+    - templateId: 13
+      joystickId: 5
+    - templateId: 14
+      joystickId: 12
+    - templateId: 15
+      joystickId: 13
+    - templateId: 17
+      joystickId: 14
+    - templateId: 18
+      joystickId: 15
+    - templateId: 19
+      joystickId: 16
+    - templateId: 20
+      joystickId: 17
+    - templateId: 21
+      joystickId: 18
+    - templateId: 22
+      joystickId: 19
+  - id: 7
+    name: Logitech F310 (D)
+    joystickGuid: 027f7200-e0ea-480d-a1be-a51f201d19b9
+    fileGuid: 8806bfb92931c4544a7ebd42e9cb53ce
+    elementIdentifierMappings:
+    - templateId: 0
+      joystickId: 0
+    - templateId: 1
+      joystickId: 1
+    - templateId: 2
+      joystickId: 2
+    - templateId: 3
+      joystickId: 3
+    - templateId: 4
+      joystickId: 6
+    - templateId: 5
+      joystickId: 7
+    - templateId: 7
+      joystickId: 8
+    - templateId: 8
+      joystickId: 9
+    - templateId: 10
+      joystickId: 10
+    - templateId: 11
+      joystickId: 4
+    - templateId: 12
+      joystickId: 11
+    - templateId: 13
+      joystickId: 5
+    - templateId: 14
+      joystickId: 12
+    - templateId: 15
+      joystickId: 13
+    - templateId: 17
+      joystickId: 14
+    - templateId: 18
+      joystickId: 15
+    - templateId: 19
+      joystickId: 16
+    - templateId: 20
+      joystickId: 17
+    - templateId: 21
+      joystickId: 18
+    - templateId: 22
+      joystickId: 19
+  - id: 8
+    name: Logitech F710 (X)
+    joystickGuid: 80f1d64b-b462-41cc-8c6d-452e72a2dee6
+    fileGuid: 25d5197998148774d93d9d5b6ba675a2
+    elementIdentifierMappings:
+    - templateId: 0
+      joystickId: 0
+    - templateId: 1
+      joystickId: 1
+    - templateId: 2
+      joystickId: 2
+    - templateId: 3
+      joystickId: 3
+    - templateId: 4
+      joystickId: 6
+    - templateId: 5
+      joystickId: 7
+    - templateId: 7
+      joystickId: 8
+    - templateId: 8
+      joystickId: 9
+    - templateId: 10
+      joystickId: 10
+    - templateId: 11
+      joystickId: 4
+    - templateId: 12
+      joystickId: 11
+    - templateId: 13
+      joystickId: 5
+    - templateId: 14
+      joystickId: 12
+    - templateId: 15
+      joystickId: 13
+    - templateId: 17
+      joystickId: 14
+    - templateId: 18
+      joystickId: 15
+    - templateId: 19
+      joystickId: 16
+    - templateId: 20
+      joystickId: 17
+    - templateId: 21
+      joystickId: 18
+    - templateId: 22
+      joystickId: 19
+  - id: 9
+    name: Logitech F710 (D)
+    joystickGuid: 38648087-ec8f-44f5-b70f-66306a581ebe
+    fileGuid: 98e7e439b7575794c912c559cbd3ea87
+    elementIdentifierMappings:
+    - templateId: 0
+      joystickId: 0
+    - templateId: 1
+      joystickId: 1
+    - templateId: 2
+      joystickId: 2
+    - templateId: 3
+      joystickId: 3
+    - templateId: 4
+      joystickId: 6
+    - templateId: 5
+      joystickId: 7
+    - templateId: 7
+      joystickId: 8
+    - templateId: 8
+      joystickId: 9
+    - templateId: 10
+      joystickId: 10
+    - templateId: 11
+      joystickId: 4
+    - templateId: 12
+      joystickId: 11
+    - templateId: 13
+      joystickId: 5
+    - templateId: 14
+      joystickId: 12
+    - templateId: 15
+      joystickId: 13
+    - templateId: 17
+      joystickId: 14
+    - templateId: 18
+      joystickId: 15
+    - templateId: 19
+      joystickId: 16
+    - templateId: 20
+      joystickId: 17
+    - templateId: 21
+      joystickId: 18
+    - templateId: 22
+      joystickId: 19
+  - id: 10
+    name: Sabrent 12 Button Gamepad
+    joystickGuid: 64803b30-552d-4846-b16b-c16105b46a87
+    fileGuid: 0a099d60095729a4c824d288142da34b
+    elementIdentifierMappings:
+    - templateId: 0
+      joystickId: 0
+    - templateId: 1
+      joystickId: 1
+    - templateId: 2
+      joystickId: 2
+    - templateId: 3
+      joystickId: 3
+    - templateId: 4
+      joystickId: 6
+    - templateId: 5
+      joystickId: 7
+    - templateId: 6
+      joystickId: 9
+    - templateId: 7
+      joystickId: 4
+    - templateId: 8
+      joystickId: 5
+    - templateId: 9
+      joystickId: 8
+    - templateId: 10
+      joystickId: 10
+    - templateId: 11
+      joystickId: 11
+    - templateId: 12
+      joystickId: 12
+    - templateId: 13
+      joystickId: 13
+    - templateId: 17
+      joystickId: 14
+    - templateId: 18
+      joystickId: 15
+    - templateId: 19
+      joystickId: 16
+    - templateId: 20
+      joystickId: 17
+    - templateId: 21
+      joystickId: 18
+    - templateId: 22
+      joystickId: 19
+  - id: 11
+    name: Sony DualShock 3
+    joystickGuid: 71dfe6c8-9e81-428f-a58e-c7e664b7fbed
+    fileGuid: dd2c1503536274001bdc3d5d6be8a98f
+    elementIdentifierMappings:
+    - templateId: 0
+      joystickId: 0
+    - templateId: 1
+      joystickId: 1
+    - templateId: 2
+      joystickId: 2
+    - templateId: 3
+      joystickId: 3
+    - templateId: 4
+      joystickId: 4
+    - templateId: 5
+      joystickId: 5
+    - templateId: 7
+      joystickId: 6
+    - templateId: 8
+      joystickId: 7
+    - templateId: 10
+      joystickId: 8
+    - templateId: 11
+      joystickId: 9
+    - templateId: 12
+      joystickId: 10
+    - templateId: 13
+      joystickId: 11
+    - templateId: 14
+      joystickId: 12
+    - templateId: 15
+      joystickId: 13
+    - templateId: 16
+      joystickId: 14
+    - templateId: 17
+      joystickId: 15
+    - templateId: 18
+      joystickId: 16
+    - templateId: 19
+      joystickId: 17
+    - templateId: 20
+      joystickId: 18
+    - templateId: 21
+      joystickId: 19
+    - templateId: 22
+      joystickId: 20
+  - id: 12
+    name: Sony DualShock 4
+    joystickGuid: cd9718bf-a87a-44bc-8716-60a0def28a9f
+    fileGuid: a25f0c1e102b54019bf551294306b277
+    elementIdentifierMappings:
+    - templateId: 0
+      joystickId: 0
+    - templateId: 1
+      joystickId: 1
+    - templateId: 2
+      joystickId: 2
+    - templateId: 3
+      joystickId: 3
+    - templateId: 4
+      joystickId: 6
+    - templateId: 5
+      joystickId: 7
+    - templateId: 7
+      joystickId: 8
+    - templateId: 8
+      joystickId: 9
+    - templateId: 10
+      joystickId: 10
+    - templateId: 11
+      joystickId: 4
+    - templateId: 12
+      joystickId: 11
+    - templateId: 13
+      joystickId: 5
+    - templateId: 14
+      joystickId: 12
+    - templateId: 15
+      joystickId: 13
+    - templateId: 16
+      joystickId: 14
+    - templateId: 17
+      joystickId: 16
+    - templateId: 18
+      joystickId: 17
+    - templateId: 19
+      joystickId: 18
+    - templateId: 20
+      joystickId: 19
+    - templateId: 21
+      joystickId: 20
+    - templateId: 22
+      joystickId: 21
+  - id: 13
+    name: Xbox One Controller
+    joystickGuid: 19002688-7406-4f4a-8340-8d25335406c8
+    fileGuid: 5d47793e65ad5314e8955046fa11f359
+    elementIdentifierMappings:
+    - templateId: 0
+      joystickId: 0
+    - templateId: 1
+      joystickId: 1
+    - templateId: 2
+      joystickId: 2
+    - templateId: 3
+      joystickId: 3
+    - templateId: 4
+      joystickId: 6
+    - templateId: 5
+      joystickId: 7
+    - templateId: 7
+      joystickId: 8
+    - templateId: 8
+      joystickId: 9
+    - templateId: 10
+      joystickId: 10
+    - templateId: 11
+      joystickId: 4
+    - templateId: 12
+      joystickId: 11
+    - templateId: 13
+      joystickId: 5
+    - templateId: 14
+      joystickId: 12
+    - templateId: 15
+      joystickId: 13
+    - templateId: 17
+      joystickId: 14
+    - templateId: 18
+      joystickId: 15
+    - templateId: 19
+      joystickId: 16
+    - templateId: 20
+      joystickId: 17
+    - templateId: 21
+      joystickId: 18
+    - templateId: 22
+      joystickId: 19
+  - id: 14
+    name: Sony Playstation Vita
+    joystickGuid: d2aef070-7caa-42ff-b2dc-daac7e4a62b4
+    fileGuid: 48092104093e47246aacaddecb6c81f2
+    elementIdentifierMappings:
+    - templateId: 0
+      joystickId: 0
+    - templateId: 1
+      joystickId: 1
+    - templateId: 2
+      joystickId: 2
+    - templateId: 3
+      joystickId: 3
+    - templateId: 4
+      joystickId: 4
+    - templateId: 5
+      joystickId: 5
+    - templateId: 7
+      joystickId: 6
+    - templateId: 8
+      joystickId: 7
+    - templateId: 11
+      joystickId: 8
+    - templateId: 13
+      joystickId: 9
+    - templateId: 14
+      joystickId: 10
+    - templateId: 15
+      joystickId: 11
+    - templateId: 19
+      joystickId: 12
+    - templateId: 20
+      joystickId: 13
+    - templateId: 21
+      joystickId: 14
+    - templateId: 22
+      joystickId: 15
+  - id: 15
+    name: Logitech RumblePad 2 USB
+    joystickGuid: 6242b853-3858-48dc-a89c-d2ac3716e0f0
+    fileGuid: b57975934979d6648a55b7ced4876c3a
+    elementIdentifierMappings:
+    - templateId: 0
+      joystickId: 0
+    - templateId: 1
+      joystickId: 1
+    - templateId: 2
+      joystickId: 2
+    - templateId: 3
+      joystickId: 3
+    - templateId: 4
+      joystickId: 6
+    - templateId: 5
+      joystickId: 7
+    - templateId: 7
+      joystickId: 8
+    - templateId: 8
+      joystickId: 9
+    - templateId: 10
+      joystickId: 10
+    - templateId: 11
+      joystickId: 4
+    - templateId: 12
+      joystickId: 11
+    - templateId: 13
+      joystickId: 5
+    - templateId: 14
+      joystickId: 12
+    - templateId: 15
+      joystickId: 13
+    - templateId: 17
+      joystickId: 14
+    - templateId: 18
+      joystickId: 15
+    - templateId: 19
+      joystickId: 16
+    - templateId: 20
+      joystickId: 17
+    - templateId: 21
+      joystickId: 18
+    - templateId: 22
+      joystickId: 19
+  - id: 16
+    name: Red Samurai Wireless Gamepad
+    joystickGuid: f73916b4-2936-40e3-8964-4180d4eb17ea
+    fileGuid: 354b5611a5b35c84f9ed9aab314b3937
+    elementIdentifierMappings:
+    - templateId: 0
+      joystickId: 0
+    - templateId: 1
+      joystickId: 1
+    - templateId: 2
+      joystickId: 2
+    - templateId: 3
+      joystickId: 3
+    - templateId: 4
+      joystickId: 4
+    - templateId: 5
+      joystickId: 5
+    - templateId: 7
+      joystickId: 6
+    - templateId: 8
+      joystickId: 7
+    - templateId: 10
+      joystickId: 8
+    - templateId: 11
+      joystickId: 9
+    - templateId: 12
+      joystickId: 10
+    - templateId: 13
+      joystickId: 11
+    - templateId: 14
+      joystickId: 12
+    - templateId: 15
+      joystickId: 13
+    - templateId: 17
+      joystickId: 14
+    - templateId: 18
+      joystickId: 15
+    - templateId: 19
+      joystickId: 16
+    - templateId: 20
+      joystickId: 17
+    - templateId: 21
+      joystickId: 18
+    - templateId: 22
+      joystickId: 19
+  - id: 17
+    name: iOS Mfi Gamepad
+    joystickGuid: 3d919cfa-468e-49f4-bce9-f6c43f2e7e62
+    fileGuid: ab34c8825048ddb46a02e63d10928a47
+    elementIdentifierMappings:
+    - templateId: 0
+      joystickId: 0
+    - templateId: 1
+      joystickId: 1
+    - templateId: 2
+      joystickId: 2
+    - templateId: 3
+      joystickId: 3
+    - templateId: 4
+      joystickId: 4
+    - templateId: 5
+      joystickId: 5
+    - templateId: 7
+      joystickId: 6
+    - templateId: 8
+      joystickId: 7
+    - templateId: 10
+      joystickId: 8
+    - templateId: 11
+      joystickId: 10
+    - templateId: 12
+      joystickId: 9
+    - templateId: 13
+      joystickId: 11
+    - templateId: 15
+      joystickId: 12
+    - templateId: 19
+      joystickId: 13
+    - templateId: 20
+      joystickId: 14
+    - templateId: 21
+      joystickId: 15
+    - templateId: 22
+      joystickId: 16
+  elementIdentifierIdCounter: 23
+  joystickIdCounter: 18
